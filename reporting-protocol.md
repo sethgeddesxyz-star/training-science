@@ -1,0 +1,60 @@
+# Reporting and Logging
+
+**Never log a session that has not happened.** A prescription is not a result. Until
+the user reports, either leave the log untouched or write the entry under a
+"Prescribed" heading marked `RESULTS PENDING` — never under "Working Sets." Never
+invent reps or effort.
+
+**Effort is reported by exception.** Never ask for per-exercise ratings. Silence means
+clean completion at the session's prescribed RIR. The user flags "easy" when a load
+should jump, a failure when one happens, and pain when it occurs.
+
+---
+
+## Parsing a returned checklist
+
+| User's change to the line | Interpretation |
+|---|---|
+| Unchanged | Completed as prescribed, at the session's prescribed RIR |
+| Rep number changed | Actual rep count for that set |
+| Weight changed | Actual load used |
+| Free text appended | Note on that set — effort, pain, form, substitution |
+| Deleted, or marked `x` / `skip` | Set not performed |
+| Line added | Extra set or exercise; add to the log |
+
+**HIIT lines**: parsed per `system/conditioning-hiit.md` §9 — a changed number is actual
+output (watts, pace, speed); an appended HR is peak HR for that rep. A skipped HIIT session
+leaves HIIT due.
+
+**BONE lines** (optional module): unchanged = performed as prescribed; deleted or `x` =
+not performed, which is **not a miss** and affects nothing else. Log every performed bout
+to the Bone Loading Module's bout log in `training-state.md` and recompute the tally.
+Next-morning Achilles, shin or foot soreness reported later still counts against that bout
+(`system/bone-loading.md` §3).
+
+Free text outranks the defaults. "Easy" or "too light" triggers the §13a undershoot
+fast-track. **Any mention of pain triggers the Pain Response Protocol
+(`users/<name>/injury-protocols.md`) and overrides all progression for that
+exercise.** A note on an exercise's first set applies to that exercise unless a later
+set contradicts it.
+
+**A free-text line of its own, not appended to a set line (added 2026-09-12, approved),**
+attaches to the set line **immediately above it**. If that line's numbers contradict the
+note, the line is self-contradictory: ask, and record only what is unambiguous in the
+meantime. Never resolve the contradiction by choosing a rep count. Worked example — the
+2026-09-12 reverse lunge returned three unchanged 7/leg lines with `Stopped at 4, knee
+flag` sitting between the Set 2 and Set 3 lines. This rule attaches the note to Set 2,
+which the user then confirmed (Set 1 7/leg, Set 2 4/leg, Set 3 skipped).
+
+Do not ask the user to confirm untouched lines — untouched *is* the report. Ask only
+when a line is genuinely ambiguous or self-contradictory. If a report contradicts
+something earlier in the conversation, say so plainly and ask which is correct rather
+than picking one.
+
+---
+
+## Natural-language reports
+
+Same treatment: parse into (exercise, sets, reps, weight, effort), apply the decision
+tree, edit `training-state.md` and `workout-log.md` in place, push, and state briefly
+what changed and why.
