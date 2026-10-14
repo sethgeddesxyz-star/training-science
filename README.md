@@ -29,26 +29,40 @@ templates/                  starting files for a new personal repo
 
 ## Set up your own trainer
 
-1. Create a **private** GitHub repo for yourself (e.g. `dug-trainer-<yourname>`).
-2. In it, mount this repo and copy the templates:
+You need a GitHub account and a Claude plan with Claude Code (claude.ai/code).
+
+1. **Make a private repo.** At github.com/new create a **private** repo for yourself
+   (e.g. `dug-trainer-<yourname>`). Tick "Add a README" so it is not empty.
+2. **Open it in Claude Code.** At claude.ai/code, connect GitHub if asked, pick your new
+   repo, and start a session. (Local Claude Code works the same: clone the repo and run
+   `claude` inside it.)
+3. **Let Claude build it.** Paste this as the first message:
+
+   > Set this repo up as my Dug Trainer from
+   > https://github.com/sethgeddesxyz-star/training-science — add it as a git submodule
+   > at `system/`, copy `system/templates/user/*` into `users/<yourname>/` and
+   > `system/templates/personal-repo/CLAUDE.md` to the repo root, replace the
+   > placeholders, commit and push to main.
+
+   Or by hand:
 
    ```bash
    git submodule add https://github.com/sethgeddesxyz-star/training-science.git system
    mkdir -p users/<yourname>
    cp system/templates/user/* users/<yourname>/
-   cp system/templates/personal-repo/CLAUDE.md system/templates/personal-repo/PROJECT-INSTRUCTIONS.md .
+   cp system/templates/personal-repo/CLAUDE.md .
+   # replace <yourname> in CLAUDE.md, then commit and push
    ```
+4. **Train.** Start a new session in your repo and say "Gym push day" (or "Home workout
+   today, 45 minutes"). `CLAUDE.md` loads the rules on its own. The first session runs a
+   short intake (goals, equipment, injuries), then starts every lift conservatively and
+   calibrates from what you report. Report results in the same session; it logs them and
+   pushes.
 
-   Replace `<yourname>` and `<you>/<your-repo>` inside the two copied files. Commit and push.
-3. Run it one of two ways:
-   - **Claude Code** (local or claude.ai/code): open your personal repo. `CLAUDE.md`
-     is the bootstrap.
-   - **claude.ai Project**: paste `PROJECT-INSTRUCTIONS.md` into the project
-     instructions field, with a fine-grained GitHub token for your personal repo
-     (Contents: Read and write). Never commit the token.
-4. Say "Gym day, 60 minutes" (or "Home workout today"). The first session runs a short
-   intake to fill in your profile, equipment and injury flags, then starts every lift
-   conservatively and calibrates from what you report.
+**claude.ai Project instead of Claude Code:** copy
+`templates/personal-repo/PROJECT-INSTRUCTIONS.md` into the project instructions field and
+give it a fine-grained GitHub token for your personal repo (Contents: Read and write).
+Never commit the token.
 
 ## Updates
 
