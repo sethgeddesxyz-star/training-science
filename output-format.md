@@ -50,6 +50,22 @@ that is the failure this rule exists to prevent.
 **HIIT days** use the coaching and checklist variants in `system/conditioning-hiit.md` §9
 (warm-up / main set / cool-down in place of prehab / warmup ramp / working sets).
 
+**Quick sessions** use the compact variant in `system/quick-sessions.md` §6 (header
+`## [Day] — Quick: [name] ([time])`, a one-line "Bonus: does not advance the block" note,
+circuit lines per round, EMOM as one compact line).
+
+**Kettlebell and strap lines** keep the standard field order; the load field is the bell
+(`53 lb`) or the strap step (`Mark 4`, `2-leg`). **Compact-line exception (added
+2026-10-18):** timed or on-the-minute blocks (get-ups, S&S, EMOM, complexes, clean-and-press
+ladders, circuits) are **one line per block**, not one per rep or minute, and the user appends
+the count done (`EMOM 10 — 10 swings/min — 53 lb — 10/10`). One line per minute is unusable on
+a phone. Formats in `system/kettlebell.md` §9, `system/suspension-trainer.md` §8 and
+`system/quick-sessions.md` §6.
+
+**Deload-week coaching views** add, after the Session Notes, the §6 rotation due list, the
+`modality-rotation.md` proposed variety swaps, and, every 4th boundary, the reminders review
+(`reminders.md` §1), each as a short table the user can answer line by line.
+
 ---
 
 ## Block 2 — Checklist view

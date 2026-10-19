@@ -25,6 +25,17 @@ aerobic-heart-rate.md       easy aerobic HR ceiling: MAF 180 formula, Zone 2
 mcgill-pullups.md           McGill pull-up clusters: Strength-block pull-up method
 bone-loading.md             OPTIONAL bone-density module: research summary, impact
                             and upper-limb ladders, Bone Doubles, weekly tally
+kettlebell.md               kettlebell repertoire: bells, technique-gated movement
+                            chain, ladders, hardstyle benchmarks, S&S and complexes
+suspension-trainer.md       TRX / rings repertoire: angle rule, catalogue, ladders,
+                            travel sessions
+quick-sessions.md           4–20 min sessions for home or anywhere: 7-Minute Workout,
+                            core circuits, KB and strap snacks, stair/walk snacks, GtG
+modality-rotation.md        rotating the KIND of training across blocks (DB, barbell,
+                            machine, bodyweight, KB, TRX, band): floor, swaps, variety week
+reminders.md                opt-in phone reminders: catalogue, agreement protocol,
+                            4-week review, delivery routes, reminders.json schema
+scripts/remind.py           the reminder sender (ntfy + cron, or --ics for the phone)
 templates/                  starting files for a new personal repo
 ```
 
@@ -64,6 +75,15 @@ You need a GitHub account and a Claude plan with Claude Code (claude.ai/code).
 `templates/personal-repo/PROJECT-INSTRUCTIONS.md` into the project instructions field and
 give it a fine-grained GitHub token for your personal repo (Contents: Read and write).
 Never commit the token.
+
+## Reminders (optional)
+
+Anything with a rhythm (bone drops, a core snack, a kettlebell practice, "HIIT is due") can
+become a phone ping. Tell the trainer which ones you want and when; it writes the agreed
+schedule to `users/<yourname>/reminders.json`. Delivery is a 10-minute one-time setup with
+the free ntfy app and a cron line on any computer that stays on, or a calendar file for the
+phone if you have no such computer. Full walkthrough: `reminders.md` §5. The trainer reviews
+every reminder's hit rate every four weeks and drops the ones you never act on.
 
 ## Updates
 

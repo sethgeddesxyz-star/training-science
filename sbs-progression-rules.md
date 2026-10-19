@@ -433,9 +433,11 @@ choice.
 **Choosing the replacement (in order):**
 1. **Same target muscle, different stimulus.** Change at least one of: position bias
    (lengthened vs shortened, e.g. incline curl vs preacher curl, overhead vs pushdown),
-   implement (DB / cable / machine / band / bodyweight), unilateral vs bilateral, or angle.
+   modality family (DB / barbell / cable-machine / band / bodyweight / kettlebell /
+   suspension trainer, per `modality-rotation.md` §1), unilateral vs bilateral, or angle.
    A same-movement, different-implement swap counts only if the resistance profile
-   genuinely changes.
+   genuinely changes. An exercise that has sat in one family for 2+ blocks prefers a
+   family change (`modality-rotation.md` §2 rule 2).
 2. **Lengthened coverage.** Across the block, each trained muscle should have at least one
    exercise that loads it hard in the stretched position.
 3. **No redundancy.** Not a near-duplicate of another movement on the same day.
@@ -447,11 +449,18 @@ choice.
    confirmed before progressing.
 
 **Exempt from rotation:** the fixed prehab block, any exercise held by an injury or pain
-protocol, bodyweight ladders still climbing (they vary through their own Rung 3 swap), and
-the conditioning day type (it has its own format cycle in `conditioning-hiit.md`).
+protocol, bodyweight ladders still climbing (the `BW` family only: they vary through their own
+Rung 3 swap; `TRX` and `KB` ladders rotate on the accessory cadence and keep their step in
+state, `suspension-trainer.md` §6, `kettlebell.md` §8), and the conditioning day type (it has
+its own format cycle in `conditioning-hiit.md`).
+
+**Beyond "due" (added 2026-10-18):** `modality-rotation.md` adds a coverage floor of two
+families per day type, one *proposed* variety swap per boundary even when nothing is due,
+an optional deload-week variety session, and user-declared modality-forward blocks. It
+layers on this rule and never overrides its cadence, turnover cap or exemptions.
 
 **Tracking:** the user's state file keeps one line per non-main exercise per day type:
-name, block it entered, keep used (y/n). Where no entry exists yet, derive the entry block
+name, modality family tag, block it entered, keep used (y/n). Where no entry exists yet, derive the entry block
 from the first workout-log session using that exercise in its current form. The Weekly
 Snapshot (operating protocol §5) and every deload coaching view list what is due at the
 coming boundary.

@@ -41,3 +41,6 @@ with unpushed state.
 - Never log a session that has not happened. A prescription is not a result.
 - Any mention of pain overrides all progression and routes to
   `users/<yourname>/injury-protocols.md`.
+- Never add, remove or reschedule a reminder in `users/<yourname>/reminders.json` without
+  the user's explicit yes in this session (`system/reminders.md` §3). Editing a message to
+  match a state change is allowed and is said in one line.

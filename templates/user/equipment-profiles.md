@@ -13,14 +13,30 @@ Training locations. The user names the location at the start of each session.
 | Equipment | Details |
 |-----------|---------|
 | Dumbbells | (pairs available, e.g. 5, 10, 15 … lb) |
-| Kettlebells | |
+| Kettlebells | (each bell, e.g. 26, 35, 53 lb; singles or pairs — `system/kettlebell.md` §2) |
+| Suspension trainer | (TRX / rings; anchor: door, beam, tree; floor marks taped? — `system/suspension-trainer.md` §2) |
 | Pull-up bar | |
-| Bands | |
-| Bench / box | |
+| Bands | (light / medium / heavy) |
+| Bench / box | (box heights) |
+| Stairs | (flights available, for stair snacks) |
 
 ### Weight Rounding (Home)
 
 - **Dumbbells**: snap to the nearest available pair. Heaviest pair = ceiling.
+- **Kettlebells**: next bell up is usually +8–9 lb (+4 kg); use the extended rep windows
+  in `system/kettlebell.md` §2 and the §3 forced-increment exception.
+- **Straps**: load is a floor mark, not a weight; one mark ≈ +5–8% bodyweight.
+
+---
+
+## Anywhere (travel, hotel, office)
+
+| Equipment | Details |
+|-----------|---------|
+| Suspension trainer | (packed? door anchor?) |
+| Bands | |
+| Stairs / hill | |
+| Nothing | bodyweight ladders and `system/quick-sessions.md` |
 
 ---
 

@@ -223,9 +223,11 @@ Bone week (last 7 days): impact 2/4 · axial 1/2 · upper 1/2 · last bout 2026-
   in the Session Notes (e.g. "Bone: 1 impact bout in the last 7 days — minimum is 3"). One line,
   no lecture, no repetition within the same session.
 
-**Daily phone ping (optional, added 2026-10-13).** A user may run a daily push
-notification from their own personal repo that lists the day's bout from
-`users/<name>/bone-ping.json`. If that file exists it is the ping's only source:
+**Daily phone ping (optional, added 2026-10-13; general mechanism 2026-10-18).** A user may
+receive a daily push listing the day's bout. The shared mechanism is a `kind: "bone"` entry
+in `users/<name>/reminders.json` sent by `system/scripts/remind.py` (`system/reminders.md`);
+an older personal `users/<name>/bone-ping.json` plus its own script does the same job and
+may stay until the user moves it. Whichever file exists is the ping's only source:
 **whenever an impact or upper-limb rung advances or drops, edit the matching `moves` entry in
 the same commit as the state change**, or the phone keeps prescribing the old rung. Dose in
 the file may follow a user directive rather than the rung table. A reported ping bout is logged like any standalone bout.

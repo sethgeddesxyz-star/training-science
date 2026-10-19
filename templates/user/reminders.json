@@ -1,0 +1,46 @@
+{
+  "_note": "TEMPLATE. Phone reminders the user AGREED to (system/reminders.md). Read by system/scripts/remind.py. The trainer edits message text when state changes (a rung advances, HIIT is done) in the same commit as the state change; it never adds, removes or reschedules a reminder without the user's word. Keep the ntfy topic OUT of this file.",
+  "version": 1,
+  "timezone": "America/Los_Angeles",
+  "quiet_hours": {"start": "21:00", "end": "07:00"},
+  "daily_cap": 4,
+  "reminders": [
+    {
+      "id": "example-bone-drops",
+      "kind": "bone",
+      "enabled": false,
+      "days": "daily",
+      "time": "10:00",
+      "title": "Bone drops",
+      "message": "- Heel drops: 2 x 15\n- Pogo hops (Rung 2): 2 x 15\n\n30 s easy bounce first. Shoes on, hard floor.",
+      "reply": "did my bone drops",
+      "tags": "bone",
+      "agreed": "YYYY-MM-DD"
+    },
+    {
+      "id": "example-core-snack",
+      "kind": "quick:core",
+      "enabled": false,
+      "days": ["tue", "thu"],
+      "time": "15:00",
+      "title": "10-min core",
+      "message": "McGill Big 3 today: curl-up 5-3-1, side plank 5-3-1/side, bird dog 5-3-1/side, 10 s holds. system/quick-sessions.md",
+      "reply": "did my core snack",
+      "tags": "muscle",
+      "agreed": "YYYY-MM-DD"
+    },
+    {
+      "id": "example-hiit-due",
+      "kind": "state:hiit-due",
+      "enabled": false,
+      "days": "daily",
+      "time": "08:00",
+      "until": "YYYY-MM-DD",
+      "title": "HIIT is due",
+      "message": "HIIT has been next in the rotation for 8 days. Next format: A (4 x 4). Bike, rower or stairs.",
+      "reply": "HIIT today",
+      "tags": "bike",
+      "agreed": "YYYY-MM-DD"
+    }
+  ]
+}

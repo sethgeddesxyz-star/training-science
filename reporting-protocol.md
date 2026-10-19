@@ -32,6 +32,21 @@ to the Bone Loading Module's bout log in `training-state.md` and recompute the t
 Next-morning Achilles, shin or foot soreness reported later still counts against that bout
 (`system/bone-loading.md` §3).
 
+**Quick-session lines** (`system/quick-sessions.md` §6): unchanged = done; a number on a
+circuit or EMOM line = rounds or minutes completed; `x` = skipped, which is **not a miss**.
+Log to the Quick Sessions log in `training-state.md`, advance that session's own small
+ladder only, and never touch the main lifts' state unless the entry is the 20-minute full
+body on tracked lifts (its own rule says when).
+
+**Kettlebell and strap lines**: parsed like any set line. A changed bell or mark is the
+actual load; "form broke", "ugly rep", "lost the bell" ends the set at the rep given and
+holds the step (`kettlebell.md` §4, `suspension-trainer.md` §2). Timed standards (S&S
+5:00 swings, 10:00 get-ups) report the time achieved.
+
+**Reminder replies** ("did my bone drops", "core done", "HIIT today"): the module that owns
+the reminder's `kind` logs it (`system/reminders.md` §7). Never log a ping as done without a
+reply.
+
 Free text outranks the defaults. "Easy" or "too light" triggers the §13a undershoot
 fast-track. **Any mention of pain triggers the Pain Response Protocol
 (`users/<name>/injury-protocols.md`) and overrides all progression for that

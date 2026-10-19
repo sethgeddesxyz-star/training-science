@@ -48,6 +48,41 @@ Rules: `system/bone-loading.md`. Not started.
 
 ---
 
+## Kettlebell
+
+Rules: `system/kettlebell.md` §8. Bells available: (from equipment-profiles.md). No lifts
+calibrated yet.
+
+---
+
+## Suspension Trainer
+
+Rules: `system/suspension-trainer.md` §7. Anchor: (none / door / beam). Floor marks
+calibrated: no.
+
+---
+
+## Quick Sessions
+
+Rules: `system/quick-sessions.md` §5. Families enabled: (none yet). Last served: —.
+Vigorous snacks, last 7 days: 0.
+
+---
+
+## Variety
+
+Rules: `system/modality-rotation.md` §3. Families in use (last 2 blocks): —. Last variety
+swap: —. Modality-forward block: none.
+
+---
+
+## Reminders
+
+Rules: `system/reminders.md`. Agreed reminders live in `reminders.json` (absent until the
+user opts in). Next 4-week review: —.
+
+---
+
 ## Per-Exercise State
 
 (one entry per exercise: working weight, rep window, sets, dated history, next prescription)
