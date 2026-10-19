@@ -123,7 +123,8 @@ spec in `system/reporting-protocol.md`.
 ## 5. Weekly snapshot
 
 Every 7 days or on request: weight increases, exercises approaching plateau, block
-status and upcoming deload, exercises flagged for variation swap, volume per muscle
+status and upcoming deload, exercises flagged for variation swap, accessories due or
+past ceiling under the Accessory Rotation rule (`sbs-progression-rules.md` §6), volume per muscle
 group vs. target.
 
 ---

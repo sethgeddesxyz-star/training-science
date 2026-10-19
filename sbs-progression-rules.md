@@ -373,8 +373,88 @@ Week 4 peak (40 lb × 2) was not used as a working weight.
 
 - **Main lifts**: see Main Lift Variation Pools below. No longer a flat "never rotate" —
   rotation is scheduled, gated, and tracked per variation.
-- **Secondary compounds**: Hold for at least 1 full block (5 weeks), may rotate at block boundaries
-- **Accessories**: Hold for at least 4 weeks, rotate at block boundaries or on plateau
+- **Secondary compounds and accessories**: rotation is scheduled, not optional. See
+  Accessory Rotation below (supersedes the earlier "may rotate" wording, 2026-10-18).
+
+### Accessory Rotation (added 2026-10-18)
+
+Everything that is not a main lift (main lifts use the Variation Pools below) rotates on a
+schedule. A user who is free to customize will tend to settle into the same comfortable
+accessories indefinitely; this rule makes change the default and keeping the deliberate
+choice.
+
+**Why, in short (evidence):**
+- Structured exercise variation produces more complete *regional* growth: varying the
+  exercise grew all four quadriceps heads, a single exercise did not, at equal total growth
+  (Fonseca et al. 2014, JSCR). A systematic review of 8 trials agrees: planned variation
+  helps regional hypertrophy and strength (Kassiano et al. 2022, JSCR 36(6):1753-62).
+- **Too much** variation costs gains. Swapping exercises at random every session matched
+  fixed selection on most measures but lost growth in one quadriceps head (Baz-Valle et al.
+  2019, PLoS One e0226989), and the 2022 review warns against frequent or random rotation.
+  The first 2-3 exposures to a new movement are mostly skill learning, and progressive
+  overload needs repeated exposures to the same movement to measure.
+- Variation measurably raises the motivation to train (Baz-Valle 2019). Adherence is the
+  biggest driver of long-term results, so this counts.
+- Muscles grow differently depending on where in the range they are loaded: e.g. overhead
+  triceps extensions grew the triceps more than pushdowns (Maeo et al. 2023, EJSS). Rotating
+  *position*, not just novelty, is the point.
+- Total growth is not reliably bigger with variation. Rotation is for coverage, freshness
+  and adherence, not a magic stimulus. Never rotate so often that loads cannot be tracked.
+
+**Cadence (each exercise carries its own age, counted in completed blocks):**
+
+| Tier | Minimum hold | Due for rotation | Hard ceiling |
+|------|--------------|------------------|--------------|
+| Accessories and isolation | 1 block | at its 2nd block boundary (~10 weeks) | 3 blocks (~15 weeks) |
+| Secondary compounds | 1 block | at its 3rd block boundary (~15 weeks) | 4 blocks (~20 weeks) |
+
+1. **Never mid-block.** Rotation happens only at a block boundary (decided during the
+   deload, takes effect in Week 1 of the next block). Exceptions: pain (route to the Pain
+   Response Protocol), missing equipment, or a form failure that the exercise's own stage
+   fallback cannot fix.
+2. **Due = rotate by default.** At the boundary where an exercise is due, the coaching view
+   lists it with its proposed replacement. It rotates unless the user keeps it.
+3. **Keep, once.** A due exercise may be kept for one more block only if it is still
+   progressing (double progression advanced at least once in the block, or §7 status
+   PROGRESSING). Record the keep and its reason in the user's state file. A stalled exercise
+   cannot be kept: §7 step 5 already wants it swapped.
+4. **Hard ceiling.** At the ceiling the exercise rotates out. The user can still override
+   (their program, their call), but the override is recorded as "kept past ceiling by user"
+   and resurfaced at every boundary until it rotates. The engine never keeps silently.
+5. **Rest, then return.** A rotated-out exercise may return after at least one full block
+   away. It returns with a fresh calibration (§2 Unknown exercise gate), starting from its
+   last logged load × 0.90, rounded down to equipment increments.
+6. **Turnover cap per boundary.** Rotate between one third and one half of each day type's
+   accessories at any one boundary, oldest and stalled first. If more are due than the cap
+   allows, the overflow is due first at the next boundary and cannot be kept again. Never
+   swap every accessory at once: it erases the progression record and stacks novel-exercise
+   soreness into one week.
+
+**Choosing the replacement (in order):**
+1. **Same target muscle, different stimulus.** Change at least one of: position bias
+   (lengthened vs shortened, e.g. incline curl vs preacher curl, overhead vs pushdown),
+   implement (DB / cable / machine / band / bodyweight), unilateral vs bilateral, or angle.
+   A same-movement, different-implement swap counts only if the resistance profile
+   genuinely changes.
+2. **Lengthened coverage.** Across the block, each trained muscle should have at least one
+   exercise that loads it hard in the stretched position.
+3. **No redundancy.** Not a near-duplicate of another movement on the same day.
+4. **Prefer unused.** Prefer a movement absent for the previous 2 blocks.
+5. **Equipment and injury.** Must be available at the day type's location
+   (`equipment-profiles.md`) and allowed by `injury-protocols.md`. Rotation never
+   overrides an exclusion or an open Pain Response Protocol.
+6. **First session is a calibration.** Conservative load, labelled in the progression note,
+   confirmed before progressing.
+
+**Exempt from rotation:** the fixed prehab block, any exercise held by an injury or pain
+protocol, bodyweight ladders still climbing (they vary through their own Rung 3 swap), and
+the conditioning day type (it has its own format cycle in `conditioning-hiit.md`).
+
+**Tracking:** the user's state file keeps one line per non-main exercise per day type:
+name, block it entered, keep used (y/n). Where no entry exists yet, derive the entry block
+from the first workout-log session using that exercise in its current form. The Weekly
+Snapshot (operating protocol §5) and every deload coaching view list what is due at the
+coming boundary.
 
 ### Main Lift Variation Pools (added 2026-08-28, supersedes prior "never rotate" rule)
 
