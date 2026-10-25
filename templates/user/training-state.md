@@ -26,8 +26,9 @@ Current progression state for all tracked exercises. Updated after every workout
 
 ## Split & Rotation
 
-- **Current split**: (from days/week: 2–3 full body · 4 upper/lower · 5+ push/pull/legs)
-- **Rotation order**:
+- **Current split**: (from days/week: 2–3 full body `FB-A`/`FB-B` · 4 upper/lower · 5+ push/pull/legs; `system/splits.md` §1)
+- **Rotation order**: (e.g. `FB-A → FB-B` · `UPPER → LOWER` · `PUSH → LEGS → PULL → HIIT`; HIIT placement per split in `system/splits.md` §3)
+- **Next due**: (day type · HIIT due: yes/no since [date])
 - **Last session date**: none
 
 ### Prehab blocks by day type

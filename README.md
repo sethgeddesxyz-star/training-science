@@ -31,6 +31,8 @@ suspension-trainer.md       TRX / rings repertoire: angle rule, catalogue, ladde
                             travel sessions
 quick-sessions.md           4–20 min sessions for home or anywhere: 7-Minute Workout,
                             core circuits, KB and strap snacks, stair/walk snacks, GtG
+splits.md                   full body / upper-lower / push-pull-legs: day types, rotation,
+                            HIIT placement per split, per-day-type rule mapping
 modality-rotation.md        rotating the KIND of training across blocks (DB, barbell,
                             machine, bodyweight, KB, TRX, band): floor, swaps, variety week
 reminders.md                opt-in phone reminders: catalogue, agreement protocol,

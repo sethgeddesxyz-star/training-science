@@ -55,6 +55,10 @@ HRmax, log) lives in `users/<name>/training-state.md` under **Conditioning — H
 
 ## 2. Rotation placement
 
+This section is written for the push/pull/legs split. Upper/lower and full-body placement
+(standalone, once per cycle or per week, stacked only after an upper session) is in
+`splits.md` §3 (added 2026-10-25); the fatigue rules in §6 apply in every split.
+
 - **Rotation: PUSH → LEGS → PULL → HIIT.** HIIT sits after pull and before push, which puts it
   as far from leg day as a 4-slot cycle allows (two sessions after legs, two before the next).
 - **HIIT is due** when it is the next day type in the rotation. It stays due until performed.

@@ -57,6 +57,7 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/kettlebell.md` | Kettlebell repertoire: bells and increments, technique-gated movement chain (deadlift → swing → clean → snatch; get-up stages), ladders, hardstyle benchmarks, session templates (S&S, complexes, density). Read whenever a kettlebell is prescribed or the location's main load is kettlebells. |
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
 | `system/quick-sessions.md` | Short sessions (4–20 min): 7-Minute Workout, core circuits, kettlebell and strap snacks, stair and walk snacks, grease-the-groove, 20-min full body. Bonus work: never a rotation day type, never a miss. Read when the opener carries a time budget under ~25 min, "quick", "snack", "travel", or a reminder fired. |
+| `system/splits.md` | The three splits (full body, upper/lower, push/pull/legs): day types, rotation, HIIT placement per split, and the table that maps every per-day-type rule (prehab, deload coverage, McGill, Bone Doubles, carries, modality floor) onto each. Read at intake, when days per week change, and when an opener names a day type the current split does not have. |
 | `system/modality-rotation.md` | Rotating the *kind* of training (DB / BB / machine / bodyweight / KB / TRX / band): coverage floor, one proposed variety swap per boundary, deload variety session, modality-forward blocks. Read in every deload week and for the Weekly Snapshot. |
 | `system/reminders.md` | Scheduled phone reminders the user agreed to: catalogue, agreement protocol, 4-week review, delivery routes, `reminders.json` schema. Read at intake, whenever the user mentions reminders, and at each block boundary. |
 | `system/scripts/remind.py` | The sender for `users/<name>/reminders.json` (ntfy + cron, or `--ics` for phone calendars). Not read in session; referenced from `reminders.md` §5. |
@@ -118,10 +119,12 @@ Apply these gates before prescribing anything:
   exception — they sit inside the leg-day sheet and are the first thing cut for time.
   "Bone snack" / "impact bout" as an opener = a standalone BONE-only prescription.
 
-**Split:** 2–3 days/week → full body · 4 → upper/lower · 5+ → push/pull/legs.
-Current split and rotation live in `training-state.md`. **A HIIT conditioning day type
-(added 2026-09-25) may sit in the rotation alongside the lifting days** — placement, opener
-handling and stacking rules are in `system/conditioning-hiit.md` §2. When it is due and the
+**Split:** 2–3 days/week → full body (`FB-A` / `FB-B`) · 4 → upper/lower · 5+ → push/pull/legs.
+Day types, rotation and the per-split mapping of every day-type rule are in `system/splits.md`
+(added 2026-10-25). Current split and rotation live in `training-state.md`. **A HIIT
+conditioning day type (added 2026-09-25) sits alongside the lifting days**: in push/pull/legs
+it is a rotation slot (`system/conditioning-hiit.md` §2); in upper/lower and full body it is a
+once-per-cycle or once-per-week standalone (`system/splits.md` §3). When it is due and the
 opener names no day type, prescribe it; when the user names a lifting day instead, prescribe
 that and carry a one-line "HIIT due" note.
 
