@@ -30,6 +30,8 @@ If the user reports pain during any exercise:
 3. **Note in the workout log** which exercise caused pain
 4. **Next session**: test with lighter weight and controlled tempo
 5. **If pain persists across 2+ sessions**: exclude the exercise and flag for review
+6. **The way back** (test session, ramp, exclusion and re-entry, what neighbouring lifts
+   do) is `system/return-to-training.md`. Steps 1–5 are the trigger; that file is the rest.
 
 Never push through joint pain. Muscle fatigue/burn is normal; sharp, stabbing, or
 grinding sensations are not. Persistent pain is a reason to see a clinician.

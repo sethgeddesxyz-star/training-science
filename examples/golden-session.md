@@ -215,7 +215,7 @@ Chest-Supported DB Row — Set 3 — 35 lb — 6 hard
 
 | Exercise | §3 steps | Bookkeeping | Result in state |
 |---|---|---|---|
-| **DB Bench Press** | Step 1 no (no set under 6, no fail) · Step 2 no (not all at 10) · Step 4: same weight, aim +1 | stallCounter stays 0 (effort not hard). e1RM: Set 1 = 40 × (1 + 12/30) = **56**, equals stored; maintenance set 45 × (1 + 6/30) = 54, lower. Stored stays 56 | **Overridden by the Pain Response Protocol**: next session is a test, lighter and controlled: 35 lb × 3 × 6–10, 3-s eccentric, **no maintenance set** (the whole exercise runs at the test load). PRP opened 2026-10-25. The Step 4 result is recorded and resumes if the test is pain-free; a second painful session excludes the exercise and flags it |
+| **DB Bench Press** | Step 1 no (no set under 6, no fail) · Step 2 no (not all at 10) · Step 4: same weight, aim +1 | stallCounter stays 0 (effort not hard). e1RM: Set 1 = 40 × (1 + 12/30) = **56**, equals stored; maintenance set 45 × (1 + 6/30) = 54, lower. Stored stays 56 | **Overridden by the Pain Response Protocol**: state `TEST` (`return-to-training.md` §1). Next session on the lift = the §2 test: one increment down, **35 lb × 3 × 6** (window floor), RIR ≥ 3, 3-s eccentric, extra ramp set 15 × 8, **no maintenance set**. PRP opened 2026-10-25. The pending Step 4 result (40, aim +1) is recorded and resumes at `CLOSED`; a sensation on the test = `EXCLUDED` (protocol step 5). Neighbour (§5): Seated DB OHP holds its load on the next FB-B even if it hits 10/10/10 |
 | **Chest-Supported DB Row** | Step 1 no (6 is the floor, not below it) · Step 2 no · Step 4: same weight, aim +1 | effort hard and weight did not increase → **stallCounter 0 → 1**. e1RM: Set 1 = 35 × (1 + 10/30) = **46.7**; Set 3 = 35 × (1 + 7/30) = 43.2; maintenance = 42. Session best 46.7 > stored 42 → **stored 46.7** | next: 35 × 3 × 6–10, target 8/8/7+. Next maintenance set: 82.5% × 46.7 = 38.5 → **40 lb × 4** |
 | **Bulgarian Split Squat** | Step 4 | stallCounter 0 | next: 25 × 3 × 6–10/leg, aim 9/8/8 |
 | **Pull-up ladder** | advance standard met (3 × 8 clean at step 5) | stallCounter 0; `lastSessionDate` 2026-10-25 | **currentStep 6** (full pull-up), start 3 × 5 |
@@ -233,10 +233,15 @@ Rotation: next due **FB-B**. `lastSessionDate` **2026-10-25**. HIIT due: still y
 + **Last session date**: 2026-10-25
 
 DB Bench Press
-+ PRP open: 2026-10-25, maintenance set 45 × 4, right shoulder pinch (rep 3). Next = test session.
++ PRP: shoulder (right) · opened 2026-10-25 on maintenance set 45 × 4 · state TEST
++      pre-flag: 40 × 3 × 6–10, pending Step 4 (aim +1) · test: 35 × 3 × 6, 3-s ecc, RIR ≥ 3, no maintenance set
++      log: 10-25 opened · —
   history: … · 2026-10-25 45 × 4 (maint, pinch) · 40 × 10/10/9
 - next: 40 × 3 × 6–10, aim ≥ 1 more total rep (§3 Step 4)
-+ next: TEST 35 × 3 × 6–10, 3-s eccentric, no maintenance set (PRP step 4); Step 4 result (40, aim +1) resumes if pain-free
++ next: TEST per return-to-training.md §2 (above); pending Step 4 resumes at CLOSED
+
+Seated DB Overhead Press
++ hold: shoulder PRP open — no Step 2 advance or §13a fast-track on the next FB-B (return-to-training.md §5)
 
 Chest-Supported DB Row
 - stallCounter 0 · e1RM 42
@@ -263,7 +268,7 @@ Pull-up ladder
 ### Working Sets
 - DB Bench Press: 45 × 4 (maintenance) · 40 × 10, 10, 9 (good-hard)
   > Right shoulder pinched on the maintenance set (rep 3), eased, working sets fine.
-  > Pain Response Protocol opened; next session is a test at 35 lb, 3-s eccentric, no maintenance set.
+  > Pain Response Protocol opened (state TEST); next session is a test at 35 lb × 3 × 6, 3-s eccentric, no maintenance set.
 - Chest-Supported DB Row: 35 × 4 (maintenance) · 35 × 8, 7, 6 (hard on set 3)
 - Bulgarian Split Squat: 25 × 8, 8, 8/leg (good-hard)
 - Pull-up ladder step 5 (light band): 8, 8, 8 → step 6 (full pull-up) next, 3 × 5
@@ -291,7 +296,7 @@ not and updates this file:
 6. Full sheet = 62.9 min; Hammer Curl is the one cut; result 56.2 min; prehab, ramp and the first two working exercises untouched.
 7. Checklist: one line per set, prehab as ROUND 1 / ROUND 2, rest once per exercise as `R2m30s`, blank line between exercises, no BONE section.
 8. The free-text line attaches to the maintenance set above it and opens a Pain Response Protocol on DB Bench Press; it does not touch any other exercise's progression.
-9. Bench next = test at 35 lb, 3-s eccentric, no maintenance set; stored e1RM 56 unchanged.
+9. Bench next = `TEST`: 35 lb × 3 × 6, RIR ≥ 3, 3-s eccentric, no maintenance set; stored e1RM 56 unchanged; the OHP holds its load on the next FB-B.
 10. Row: 6 reps is not a Step 1 failure; stallCounter becomes 1; e1RM becomes 46.7; next maintenance set 40 × 4.
 11. Pull-up ladder advances to step 6 at 3 × 5.
 12. Hammer Curl: no state change, no miss, one log note.

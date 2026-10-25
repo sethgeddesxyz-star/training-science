@@ -56,6 +56,10 @@ tracking vector, not a rule gap.
   count from 20 min, MAF ceiling, loose placement, three-line prescription, AEROBIC
   checklist line, state section, Snapshot line, `aerobic` reminder kind); HIIT §2 and §6
   now hand easy work to that ledger.
+- Gap 6 done: `return-to-training.md` (states OPEN → TEST → RAMP → CLOSED and
+  EXCLUDED → RE-ENTRY, the test session spelled out, one increment per session back,
+  frozen counters, substitution and re-entry at 0.80, neighbouring-lift holds, state
+  block format). Golden session bench PRP re-traced to match.
 - Observed, not changed: the Hypertrophy maintenance set (82.5% e1RM) rounds to the
   working weight whenever a lift sits at the top of its rep window with 5-lb steps
   (e1RM = 1.4 × w, 82.5% of that = 1.155 w). It still runs; worth a look later.
