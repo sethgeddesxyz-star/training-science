@@ -14,14 +14,14 @@ tracking vector, not a rule gap.
 
 | # | Gap | Why this rank | Status |
 |---|-----|---------------|--------|
-| 1 | Splits beyond push/pull/legs: HIIT placement, prehab, McGill, Bone Doubles, carries, modality floor and deload coverage are all written against PUSH → LEGS → PULL → HIIT; full body and upper/lower are named but undefined | Wrong or improvised prescriptions for any user under 5 days/week | in progress |
-| 2 | Per-session read is heavy (often 1,500+ lines per workout; bone-loading and McGill read every session) | Clause-dropping risk on every other rule | pending |
-| 3 | No worked example / golden session: a filled sample user and one session traced through the decision tree | The only test an LLM-run rulebook can have; catches drift in 1 and 2 | pending |
-| 4 | No session-start readiness check (sleep, soreness, stress feed nothing until a deload trigger fires after the fact) | Daily load accuracy | pending |
-| 5 | Easy aerobic work has no slot: heart-rate card only, no day type, target or log | Feature gap; the card exists, the program does not | pending |
-| 6 | Return-to-training after a pain flag: protocol stops and substitutes, then "test lighter"; no ramp back, no rule for clearing a flag | Safety, but rare | pending |
-| 7 | No mobility / joint-prep layer; warmup ramp is a load ramp only | Feature gap | pending |
-| 8 | No tags or changelog; personal repos pin a bare hash | Housekeeping | pending |
+| 1 | Splits beyond push/pull/legs: HIIT placement, prehab, McGill, Bone Doubles, carries, modality floor and deload coverage are all written against PUSH → LEGS → PULL → HIIT; full body and upper/lower are named but undefined | Wrong or improvised prescriptions for any user under 5 days/week | done (`splits.md`) |
+| 2 | Per-session read is heavy (often 1,500+ lines per workout; bone-loading and McGill read every session) | Clause-dropping risk on every other rule | done (read map) |
+| 3 | No worked example / golden session: a filled sample user and one session traced through the decision tree | The only test an LLM-run rulebook can have; catches drift in 1 and 2 | done (`examples/`) |
+| 4 | No session-start readiness check (sleep, soreness, stress feed nothing until a deload trigger fires after the fact) | Daily load accuracy | done (`readiness.md`) |
+| 5 | Easy aerobic work has no slot: heart-rate card only, no day type, target or log | Feature gap; the card exists, the program does not | done (`aerobic-base.md`) |
+| 6 | Return-to-training after a pain flag: protocol stops and substitutes, then "test lighter"; no ramp back, no rule for clearing a flag | Safety, but rare | done (`return-to-training.md`) |
+| 7 | No mobility / joint-prep layer; warmup ramp is a load ramp only | Feature gap | done (`warmup-and-mobility.md`) |
+| 8 | No tags or changelog; personal repos pin a bare hash | Housekeeping | done (`CHANGELOG.md`, tags) |
 | — | Nutrition / bodyweight tracking | Skipped by decision 2026-10-25 | skipped |
 
 ## Working rules for this repo
@@ -30,6 +30,18 @@ tracking vector, not a rule gap.
   sections, rules before evidence, references last with DOIs.
 - Touch `operating-protocol.md` only to add the file-table row and the read trigger.
 - Never a user's name, load, log or injury in any file here.
+
+## Open items
+
+- [ ] Merge `rules/gap-closing` into `main` and push (Seth's call; no deploy gate here, but
+      the branch was chosen at session start). Then tag `v1.1` on the merge commit.
+- [ ] Real personal repos (DugTrainerClaude and any other) pull the new rules with
+      `git submodule update --remote system` and fill the new state lines (Next due,
+      Last Weekly Snapshot, Readiness flags, Aerobic Base) at their next session.
+- [ ] The Hypertrophy maintenance set rounds to the working weight at the window top with
+      5-lb steps; decide whether that is fine or the rule wants a floor (e.g. skip the set
+      when it rounds to ≤ working weight).
+- [ ] Add a `training-science` row to `~/.claude/references/projects.md`.
 
 ## Session notes
 
@@ -65,6 +77,8 @@ tracking vector, not a rule gap.
   flexibility only as a declared goal at 60 s × 2–3/week; range limits handled by variant
   regression and re-test). Output format gains a GENERAL section; golden session
   re-traced: full sheet 66.4 min, Hammer Curl cut, 59.7 min.
+- Gap 8 done: `CHANGELOG.md`; tags `v1.0` (a703c40, pre-gap) and `v1.1` (this branch's
+  head); README shows how to pin a tag.
 - Observed, not changed: the Hypertrophy maintenance set (82.5% e1RM) rounds to the
   working weight whenever a lift sits at the top of its rep window with 5-lb steps
   (e1RM = 1.4 × w, 82.5% of that = 1.155 w). It still runs; worth a look later.

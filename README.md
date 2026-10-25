@@ -46,6 +46,7 @@ modality-rotation.md        rotating the KIND of training across blocks (DB, bar
 reminders.md                opt-in phone reminders: catalogue, agreement protocol,
                             4-week review, delivery routes, reminders.json schema
 scripts/remind.py           the reminder sender (ntfy + cron, or --ics for the phone)
+CHANGELOG.md                what each tagged version changed
 templates/                  starting files for a new personal repo
 examples/                   a fictional sample user and one golden session traced
                             rule by rule: the repo's test. Re-trace it when a rule changes
@@ -99,11 +100,19 @@ every reminder's hit rate every four weeks and drops the ones you never act on.
 
 ## Updates
 
-Your personal repo pins a version of this one. To take the latest rules:
+Your personal repo pins a version of this one. Versions are tagged (`v1.0`, `v1.1`, …) and
+described in `CHANGELOG.md`. To take the latest rules:
 
 ```bash
 git submodule update --remote system
 git commit -am "Update shared rules"
+```
+
+To pin a named version instead:
+
+```bash
+git -C system fetch --tags && git -C system checkout v1.1
+git commit -am "Pin shared rules to v1.1"
 ```
 
 ## Contributing
