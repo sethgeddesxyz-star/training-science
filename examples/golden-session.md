@@ -34,6 +34,7 @@ Per `operating-protocol.md` §1 and the read map in `sbs-progression-rules.md`:
 | splits | no | rotation already in state; no day-type conflict in the opener |
 | bone-loading | no | state says "Not started" |
 | conditioning-hiit | no | not requested; the "HIIT due" line comes from state |
+| aerobic-base | no | not requested; its weekly line belongs to the Snapshot, which is not due |
 | quick-sessions, kettlebell, suspension-trainer, modality-rotation, reminders, exercise-library | no | off-trigger (60 min; no KB or straps; not a deload; no reminders; no new exercise to choose) |
 | users/sam/* (all four) | yes | always |
 

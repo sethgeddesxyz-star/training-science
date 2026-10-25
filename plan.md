@@ -52,6 +52,10 @@ tracking vector, not a rule gap.
   no rep-outs for sleep or fatigue, longer ramp for soreness, neck check for illness),
   a 4th reactive-deload trigger in §8, a rolling flag line in the state template, a §2
   gate, and a golden-session gate row.
+- Gap 5 done: `aerobic-base.md` (Floor 90 / Build 150 / Hold 60 min per week, sessions
+  count from 20 min, MAF ceiling, loose placement, three-line prescription, AEROBIC
+  checklist line, state section, Snapshot line, `aerobic` reminder kind); HIIT §2 and §6
+  now hand easy work to that ledger.
 - Observed, not changed: the Hypertrophy maintenance set (82.5% e1RM) rounds to the
   working weight whenever a lift sits at the top of its rep window with 5-lb steps
   (e1RM = 1.4 × w, 82.5% of that = 1.155 w). It still runs; worth a look later.

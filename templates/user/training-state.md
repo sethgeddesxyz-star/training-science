@@ -45,6 +45,14 @@ Rules: `system/conditioning-hiit.md`. Not started. Safety screen (§8) not yet a
 
 ---
 
+## Aerobic Base
+
+Rules: `system/aerobic-base.md`. Level: Floor (90 min/week; set at intake). Ceiling: MAF
+(180 − age, adjustments per `system/aerobic-heart-rate.md`): — bpm. Preferred modality: —.
+Rolling 7 days: 0 / 90 min · last: —. Weeks at or over target (consecutive): 0.
+
+---
+
 ## Bone Loading Module (OPTIONAL)
 
 Rules: `system/bone-loading.md`. Not started.

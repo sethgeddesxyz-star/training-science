@@ -30,6 +30,12 @@ appended pain, joint or stop-rule note means the set is not scored.
 output (watts, pace, speed); an appended HR is peak HR for that rep. A skipped HIIT session
 leaves HIIT due.
 
+**AEROBIC lines** (`system/aerobic-base.md` §4): unchanged = done at the prescribed minutes
+under the ceiling; a changed number = actual minutes; appended HR or pace = data; "over" =
+over ceiling, still counts. A natural-language report of easy cardio ("walked 40 min") logs
+the same way with its date; under 20 min it goes to the quick-session log instead. Never
+touches the HIIT ledger or any lift.
+
 **BONE lines** (optional module): unchanged = performed as prescribed; deleted or `x` =
 not performed, which is **not a miss** and affects nothing else. Log every performed bout
 to the Bone Loading Module's bout log in `training-state.md` and recompute the tally.

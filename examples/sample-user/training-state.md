@@ -54,6 +54,14 @@ Modality: stairs (one flight) or outdoor hill. Format cycle position: A (none pe
 
 ---
 
+## Aerobic Base
+
+Rules: `system/aerobic-base.md`. Level: Floor (90 min/week; set 2026-10-25). Ceiling: MAF
+140 bpm (180 − 40, no adjustment). Preferred modality: incline walk (outdoor hill).
+Rolling 7 days: 0 / 90 min · last: —. Weeks at or over target (consecutive): 0.
+
+---
+
 ## Bone Loading Module (OPTIONAL)
 
 Rules: `system/bone-loading.md`. Not started (offered at intake, declined for now).

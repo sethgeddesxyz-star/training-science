@@ -1,5 +1,8 @@
 # Aerobic Training Heart Rate (added 2026-10-16, user request)
 
+This card sets the **ceiling** for easy aerobic work. How much, when, and where it is logged
+is `aerobic-base.md` (added 2026-10-25).
+
 ## MAF 180 Formula (Phil Maffetone)
 
 **Maximum aerobic heart rate = 180 − age**

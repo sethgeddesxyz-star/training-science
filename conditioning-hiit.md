@@ -75,8 +75,9 @@ This section is written for the push/pull/legs split. Upper/lower and full-body 
 - **Bonus second HIIT (to reach 2/week, optional).** Allowed on a non-lifting day when (a) the
   next day's session is not legs, and (b) it is at least 24 h after the last legs session. Run
   the next format in the cycle; it advances the cycle but not the rotation.
-- **Weekly cap:** 3 HIIT sessions per 7 days, bonus included. Incline-walk zone-2 work does not
-  count toward the cap.
+- **Weekly cap:** 3 HIIT sessions per 7 days, bonus included. Easy aerobic work (incline walk,
+  zone 2) does not count toward the cap; it has its own weekly minutes ledger in
+  `aerobic-base.md` (added 2026-10-25), and HIIT minutes do not count there either.
 
 ---
 
@@ -176,7 +177,8 @@ lifting, when any of these hold:
   cause it).
 
 An engine-driven swap does not advance the format cycle; the same format is prescribed next
-time.
+time. The 20 min of easy work is logged to the aerobic-base ledger (`aerobic-base.md` §2);
+HIIT stays due.
 
 ---
 

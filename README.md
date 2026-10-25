@@ -22,6 +22,8 @@ bodyweight-ladders.md       bodyweight progression ladders
 conditioning-hiit.md        HIIT / VO2max day type: research summary, A→B→A→C
                             format cycle, modality, progression by output
 aerobic-heart-rate.md       easy aerobic HR ceiling: MAF 180 formula, Zone 2
+aerobic-base.md             easy aerobic work as a weekly minutes target: dose levels,
+                            placement, three-line session, logging, Snapshot line
 mcgill-pullups.md           McGill pull-up clusters: Strength-block pull-up method
 bone-loading.md             OPTIONAL bone-density module: research summary, impact
                             and upper-limb ladders, Bone Doubles, weekly tally

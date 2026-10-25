@@ -63,6 +63,7 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/kettlebell.md` | Kettlebell repertoire: bells and increments, technique-gated movement chain (deadlift → swing → clean → snatch; get-up stages), ladders, hardstyle benchmarks, session templates (S&S, complexes, density). Read whenever a kettlebell is prescribed or the location's main load is kettlebells. |
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
 | `system/quick-sessions.md` | Short sessions (4–20 min): 7-Minute Workout, core circuits, kettlebell and strap snacks, stair and walk snacks, grease-the-groove, 20-min full body. Bonus work: never a rotation day type, never a miss. Read when the opener carries a time budget under ~25 min, "quick", "snack", "travel", or a reminder fired. |
+| `system/aerobic-base.md` | Easy aerobic (Zone 2 / MAF) work as a weekly minutes target with its own log line: dose levels, placement, the three-line session, reporting, Snapshot line. Not a day type; never a miss. Read when the opener asks for easy cardio by any name, when `conditioning-hiit.md` §6 swaps a HIIT for easy work, at intake, and for the Weekly Snapshot. |
 | `system/readiness.md` | Same-day adjustments for a sleep, fatigue, soreness or illness flag the user volunteers in the opener; the rolling flag list and its reactive-deload trigger. Read only when the opener carries such a word. Never a questionnaire. |
 | `system/splits.md` | The three splits (full body, upper/lower, push/pull/legs): day types, rotation, HIIT placement per split, and the table that maps every per-day-type rule (prehab, deload coverage, McGill, Bone Doubles, carries, modality floor) onto each. Read at intake, when days per week change, and when an opener names a day type the current split does not have. |
 | `system/modality-rotation.md` | Rotating the *kind* of training (DB / BB / machine / bodyweight / KB / TRX / band): coverage floor, one proposed variety swap per boundary, deload variety session, modality-forward blocks. Read in every deload week and for the Weekly Snapshot. |
@@ -102,6 +103,10 @@ Apply these gates before prescribing anything:
   slot unless the user says so. A time budget of 25 minutes or more is a normal session cut for
   time (below), not a quick session, unless the user asks for a quick session by name.
 
+- **Easy-cardio opener (added 2026-10-25)** — "zone 2", "easy ride", "long walk", "aerobic",
+  or a stated easy cardio session routes to `system/aerobic-base.md` §3: a three-line
+  prescription, logged against the weekly minutes target. Not a rotation day, never a miss,
+  never the HIIT slot.
 - **Location is straps-only or kettlebells-only** — prescribe the day type from that
   family's file (`suspension-trainer.md` §5, `kettlebell.md` §6) as the Tier-1 substitute:
   the block, week and rotation advance as normal, the main-lift tier state does not.
@@ -163,9 +168,10 @@ Every 7 days or on request: weight increases, exercises approaching plateau, blo
 status and upcoming deload, exercises flagged for variation swap, accessories due or
 past ceiling under the Accessory Rotation rule (`sbs-progression-rules.md` §6), volume per muscle
 group vs. target, **modality families per day type and any coverage-floor failure**
-(`modality-rotation.md` §3), **quick sessions and reminders**: snacks done this week by
-family, and, every 4th snapshot (block boundary), each reminder's hit rate with a keep /
-change / drop question for any under one in three (`reminders.md` §1).
+(`modality-rotation.md` §3), **aerobic base**: minutes vs the weekly target, sessions, and
+consecutive weeks on target (`aerobic-base.md` §4), **quick sessions and reminders**: snacks
+done this week by family, and, every 4th snapshot (block boundary), each reminder's hit rate
+with a keep / change / drop question for any under one in three (`reminders.md` §1).
 
 ---
 
