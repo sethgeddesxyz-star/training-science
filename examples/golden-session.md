@@ -32,6 +32,7 @@ Per `operating-protocol.md` §1 and the read map in `sbs-progression-rules.md`:
 | bodyweight-ladders (General Rules, Ladder 2, Tracking) | yes | a ladder is in state |
 | mcgill-pullups | yes, no action | FB-A carries v_pull and a pull-up is in state; Hypertrophy block, and the user is at ladder step 5 (no strict bodyweight pull-up yet), so neither cluster nor primer applies |
 | splits | no | rotation already in state; no day-type conflict in the opener |
+| warmup-and-mobility §1–§2 | yes | every lifting session; §3–§4 not read (no stretching or range question) |
 | bone-loading | no | state says "Not started" |
 | conditioning-hiit | no | not requested; the "HIIT due" line comes from state |
 | aerobic-base | no | not requested; its weekly line belongs to the Snapshot, which is not due |
@@ -75,12 +76,14 @@ maintenance set, 4 @ 82.5% e1RM, performed after the warmup ramp and before the 
 | **Pull-up ladder** | `bodyweight-ladders.md` Ladder 2, step 5, advance standard 3 × 8 | 3 × 8, light band |
 | **DB Hammer Curl** | §3 Step 4 after 12/12/11 | 20 lb × 3 × 8–12, target 12/12/12 |
 | **Prehab** | `injury-protocols.md`, fixed block, 2 rounds | Band Pull-apart 15 · Band External Rotation 12/side |
+| **General warm-up** | `warmup-and-mobility.md` §1–§2, FB-A block; Band Pull-apart is not in it (prehab covers it) | Stairs 2 min easy · Shoulder CARs 3/side · Hip CARs 3/side · Ankle rock 8/side · Scapular push-up 8 · Paused BW squat 8 |
 
 **Duration** (`output-format.md`, 3 s per rep, unilateral both sides, window top, 60 s setup
 per exercise, 15% margin):
 
 | Item | Work | Rest | Setup | Seconds |
 |---|---|---|---|---|
+| General warm-up (fixed) | 180 | — | — | 180 |
 | Prehab: 4 item-rounds × 60 s + 4 × 30 s transitions | 240 | 120 | — | 360 |
 | Bench ramp: 13 reps × 3 s; 2 × 45 s | 39 | 90 | 60 | 189 |
 | Row ramp | 39 | 90 | 60 | 189 |
@@ -89,11 +92,11 @@ per exercise, 15% margin):
 | Bulgarian: 3 × 10 × 2 legs × 3 s; 2 × 150 | 180 | 300 | 60 | 540 |
 | Pull-up: 24 × 3; 2 × 150 | 72 | 300 | 60 | 432 |
 | Hammer Curl: 36 × 3; 2 × 90 | 108 | 180 | 60 | 348 |
-| **Full sheet** | | | | **3,282 s = 54.7 min × 1.15 = 62.9 min** |
+| **Full sheet** | | | | **3,462 s = 57.7 min × 1.15 = 66.4 min** |
 
-62.9 > 60, so cut from the end of the accessory order (`operating-protocol.md` §2): drop the
-Hammer Curl. 2,934 s = 48.9 min × 1.15 = **56.2 min**. Fits. Prehab, ramp and the first two
-working exercises were never candidates.
+66.4 > 60, so cut from the end of the accessory order (`operating-protocol.md` §2): drop the
+Hammer Curl. 3,114 s = 51.9 min × 1.15 = **59.7 min**. Fits. The general warm-up, prehab,
+ramp and the first two working exercises were never candidates.
 
 ## 5. Output
 
@@ -102,6 +105,10 @@ working exercises were never candidates.
 ```
 ## Saturday — Home (FB-A)
 Block: Hypertrophy | Week 2 of 4
+
+### General Warm-up (3 min)
+- Raise: stairs 2 min easy
+- Joint prep, one round: Shoulder CARs 3/side · Hip CARs 3/side · Ankle rock 8/side · Scapular push-up 8 · Paused BW squat 8
 
 ### Prehab (right shoulder, always-active)
 - Band Pull-apart: 2 x 15
@@ -130,7 +137,7 @@ Block: Hypertrophy | Week 2 of 4
    > Last session: 2026-10-20, 7, 7, 6
 
 ### Session Notes
-- Estimated duration: ~56 min (full sheet computed at 63 min; DB Hammer Curl cut to fit 60)
+- Estimated duration: ~60 min (full sheet computed at 66 min; DB Hammer Curl cut to fit 60)
 - Today's focus: Hypertrophy Week 2; the row's first session at 35 lb
 - Effort target: RIR 2 (good-hard)
 - HIIT due — 5 days since the week opened, none performed. Tomorrow is 24 h clear on both sides of a lifting day: standalone slot, Format A, stairs.
@@ -140,6 +147,18 @@ Block: Hypertrophy | Week 2 of 4
 
 ```
 2026-10-25 — Home (FB-A) — Hypertrophy Wk 2/4
+
+GENERAL
+Stairs — 2 min easy
+Shoulder CARs — 3/side
+
+Hip CARs — 3/side
+
+Ankle rock — 8/side
+
+Scapular push-up — 8
+
+Paused BW squat — 8
 
 PREHAB
 ROUND 1
@@ -293,8 +312,8 @@ not and updates this file:
 3. Row maintenance set = 35 lb × 4 even though it equals the working weight.
 4. Bench ramp = 15 × 5, 25 × 5, 30 × 3; row ramp = 15 × 5, 20 × 5, 30 × 3; 45 s rest.
 5. Row working target after an advance = 6 (window low), not 8 or 10.
-6. Full sheet = 62.9 min; Hammer Curl is the one cut; result 56.2 min; prehab, ramp and the first two working exercises untouched.
-7. Checklist: one line per set, prehab as ROUND 1 / ROUND 2, rest once per exercise as `R2m30s`, blank line between exercises, no BONE section.
+6. Full sheet = 66.4 min (general warm-up 180 s included); Hammer Curl is the one cut; result 59.7 min; general warm-up, prehab, ramp and the first two working exercises untouched.
+7. Checklist: GENERAL, then PREHAB as ROUND 1 / ROUND 2, then WARMUP; one line per set, rest once per exercise as `R2m30s`, blank line between exercises, no BONE section.
 8. The free-text line attaches to the maintenance set above it and opens a Pain Response Protocol on DB Bench Press; it does not touch any other exercise's progression.
 9. Bench next = `TEST`: 35 lb × 3 × 6, RIR ≥ 3, 3-s eccentric, no maintenance set; stored e1RM 56 unchanged; the OHP holds its load on the next FB-B.
 10. Row: 6 reps is not a Step 1 failure; stallCounter becomes 1; e1RM becomes 46.7; next maintenance set 40 × 4.

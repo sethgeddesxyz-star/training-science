@@ -64,6 +64,7 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
 | `system/quick-sessions.md` | Short sessions (4–20 min): 7-Minute Workout, core circuits, kettlebell and strap snacks, stair and walk snacks, grease-the-groove, 20-min full body. Bonus work: never a rotation day type, never a miss. Read when the opener carries a time budget under ~25 min, "quick", "snack", "travel", or a reminder fired. |
 | `system/aerobic-base.md` | Easy aerobic (Zone 2 / MAF) work as a weekly minutes target with its own log line: dose levels, placement, the three-line session, reporting, Snapshot line. Not a day type; never a miss. Read when the opener asks for easy cardio by any name, when `conditioning-hiit.md` §6 swaps a HIIT for easy work, at intake, and for the Weekly Snapshot. |
+| `system/warmup-and-mobility.md` | The general warm-up (2 min raise + one round of joint prep by day type; 180 s in the estimate; never cut), the stretching policy, and what to do with a range-of-motion limit. §1–§2 read on every lifting session; §3–§4 only on a stretching or range question. |
 | `system/return-to-training.md` | What follows a pain flag: the protocol's states (OPEN → TEST → RAMP → CLOSED, EXCLUDED → RE-ENTRY), the test session exactly, the ramp back, substitution and re-entry, neighbouring-lift holds. Read whenever a Pain Response Protocol in `training-state.md` is in any state but CLOSED, and in the session that opens one. |
 | `system/readiness.md` | Same-day adjustments for a sleep, fatigue, soreness or illness flag the user volunteers in the opener; the rolling flag list and its reactive-deload trigger. Read only when the opener carries such a word. Never a questionnaire. |
 | `system/splits.md` | The three splits (full body, upper/lower, push/pull/legs): day types, rotation, HIIT placement per split, and the table that maps every per-day-type rule (prehab, deload coverage, McGill, Bone Doubles, carries, modality floor) onto each. Read at intake, when days per week change, and when an opener names a day type the current split does not have. |
@@ -131,8 +132,9 @@ Apply these gates before prescribing anything:
   Be exact: "3 x 8 @ 25 lb DBs, rest 150s", never "moderate weight."
 - **Ceiling** — before declaring a ceiling, exhaust paired DBs, mixed DB+KB, worn
   load, and unilateral conversion. Ceiling ladder applies only after those.
-- **Time limit** — cut from the end of the accessory order. Never cut prehab, the
-  warmup ramp, or the first two working exercises.
+- **Time limit** — cut from the end of the accessory order. Never cut the general
+  warm-up (`system/warmup-and-mobility.md` §1), prehab, the warmup ramp, or the first two
+  working exercises.
 - **Bone Loading Module (optional, added 2026-09-25)** — while the module is active in
   `training-state.md`, every session carries the `BONE (optional)` section and the bone
   tally line per `system/bone-loading.md` §5. While it is "Not started", the file is not

@@ -689,7 +689,8 @@ For the first compound exercise(s) of the session, prescribe automatic warmup se
 
 Round each warmup weight to the nearest available load. Skip warmup sets that would duplicate a heavier warmup or exceed the working weight. Rest between warmup sets: 45 seconds.
 
-Bodyweight exercises: no warmup ramp (general warmup is sufficient).
+Bodyweight exercises: no warmup ramp (the general warm-up, `warmup-and-mobility.md` §1, is
+sufficient).
 
 ---
 

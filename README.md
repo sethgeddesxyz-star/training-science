@@ -33,6 +33,8 @@ suspension-trainer.md       TRX / rings repertoire: angle rule, catalogue, ladde
                             travel sessions
 quick-sessions.md           4–20 min sessions for home or anywhere: 7-Minute Workout,
                             core circuits, KB and strap snacks, stair/walk snacks, GtG
+warmup-and-mobility.md      general warm-up (raise + joint prep by day type), stretching
+                            policy, range-of-motion limits
 return-to-training.md       after a pain flag: protocol states, the test session, the ramp
                             back, exclusion and re-entry, neighbouring-lift holds
 readiness.md                same-day adjustment for a volunteered sleep / fatigue / soreness /

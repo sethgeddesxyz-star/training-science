@@ -60,6 +60,11 @@ tracking vector, not a rule gap.
   EXCLUDED → RE-ENTRY, the test session spelled out, one increment per session back,
   frozen counters, substitution and re-entry at 0.80, neighbouring-lift holds, state
   block format). Golden session bench PRP re-traced to match.
+- Gap 7 done: `warmup-and-mobility.md` (2-min raise + one-round joint prep by day type,
+  fixed 180 s in the estimate, never cut; no static stretching over 30 s before lifting;
+  flexibility only as a declared goal at 60 s × 2–3/week; range limits handled by variant
+  regression and re-test). Output format gains a GENERAL section; golden session
+  re-traced: full sheet 66.4 min, Hammer Curl cut, 59.7 min.
 - Observed, not changed: the Hypertrophy maintenance set (82.5% e1RM) rounds to the
   working weight whenever a lift sits at the top of its rep window with 5-lb steps
   (e1RM = 1.4 × w, 82.5% of that = 1.155 w). It still runs; worth a look later.

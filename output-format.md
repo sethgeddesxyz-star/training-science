@@ -12,6 +12,10 @@ performance order — prehab is activation before loading, never a cooldown.
 ## [Day of Week] — [Location] ([Split Label])
 Block: [Hypertrophy/Strength/Deload] | Week [N] of [Total]
 
+### General Warm-up (3 min)
+- Raise: [modality] 2 min easy
+- Joint prep, one round: [day type's items, `warmup-and-mobility.md` §2]
+
 ### Prehab (if injury flags active)
 - [Prehab exercise]: [sets] x [reps]
 
@@ -40,7 +44,8 @@ per exercise: (sets × reps × tempo seconds) + (sets − 1) × rest + 60s setup
 Tempo seconds = the prescribed tempo where one is given, otherwise **3 s per rep** (default
 added 2026-10-25; the formula had no default and every session was guessing one). Unilateral
 sets count both sides. Where a rep target is a window, estimate at the window top.
-Add the prehab block at 60s per item per round plus 30s transitions, and the warmup ramp
+Add the general warm-up at a fixed 180 s (`warmup-and-mobility.md` §1, added 2026-10-25),
+the prehab block at 60s per item per round plus 30s transitions, and the warmup ramp
 at its own rest values. Then add a **15% overhead margin** before comparing against the
 user's stated limit. If the total exceeds the limit, cut from the end of the accessory
 order until it fits — cutting is the §2 mechanism, and a sheet that only fits without
@@ -81,7 +86,9 @@ block. No progression notes, no commentary.
   must never need the coaching view to know what to do.
 - Fields separated by ` — `. Field order identical every time.
 - Unilateral work stays on one line with `/side` or `/leg`. Never split into L and R.
-- Prehab and warmup lines included, above working sets, in performance order.
+- General warm-up, prehab and warmup lines included, above working sets, in performance
+  order (`GENERAL`, then `PREHAB`, then `WARMUP`). General lines are one per item; the user
+  deletes one that was skipped, which is not a miss.
 - **Rest time appears once per exercise**, on its own line directly above that
   exercise's set lines, formatted compactly (`R1m30s`, `R45s`, `R2m`). Never repeated
   on every set line.
@@ -99,6 +106,12 @@ block. No progression notes, no commentary.
 
 ```
 [YYYY-MM-DD] — [Location] ([Split]) — [Block] Wk [N]/[Total]
+
+GENERAL
+[Modality] — 2 min easy
+[Joint-prep item] — [reps]
+
+[Joint-prep item] — [reps]
 
 PREHAB
 [Exercise] — [reps]
