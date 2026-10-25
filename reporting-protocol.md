@@ -23,7 +23,7 @@ should jump, a failure when one happens, and pain when it occurs.
 | Line added | Extra set or exercise; add to the log |
 
 **Rep-out lines** (Strength-block main lifts, `sbs-progression-rules.md` §4a): the number
-written is the reps done at RIR 1; unchanged = exactly the target (`4+` unchanged = 4). An
+written is the reps done at the line's cap (RIR 1, or RIR 2 where overridden); unchanged = exactly the target (`4+` unchanged = 4). An
 appended pain, joint or stop-rule note means the set is not scored.
 
 **HIIT lines**: parsed per `system/conditioning-hiit.md` §9 — a changed number is actual

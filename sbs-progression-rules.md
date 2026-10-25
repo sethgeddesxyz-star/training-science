@@ -163,17 +163,20 @@ load and rest as the other sets:
 | 4 | 3 × 2 @ 87.5% + AMRAP @ 85% | the AMRAP set: 3+ | 3 |
 
 **The cap is RIR 1, never failure.** Stop when one more clean rep is all that is left, or at the
-first form break, whichever comes first. Every injury stop rule in the user's
+first form break, whichever comes first. **Per-lift override:** the user's `training-state.md`
+may set a lift's cap to RIR 2 (e.g. a recently closed back event on a hinge); the cap is
+never lower than RIR 1. Every injury stop rule in the user's
 `injury-protocols.md` still ends the set at once. A set ended by a stop rule, or with any pain
 or joint-sensation report, is **not scored**: the lift holds its load next week and the Pain
 Response Protocol applies as usual.
 
-**Scoring.** `delta = rep-out reps − target`, using the reps as logged (the RIR-1 cap makes the
-§4 table one rep conservative, on purpose). Then, for the next loading week:
+**Scoring.** `delta = rep-out reps + (cap − 1) − target`, i.e. reps as logged at a RIR-1 cap,
++1 at a RIR-2 cap, so both caps score on the same scale (the RIR-1 cap leaves the §4 table one
+rep conservative, on purpose). Then, for the next loading week:
 
 - **Branch 1 (lift has an e1RM):** `scaled = stored e1RM × §4 multiplier`. The rep-out is also a
-  qualifying set at RIR 1 (§2): `epley = load × (1 + (reps + 1) / 30)`, valid while
-  reps + 1 ≤ 12. **New e1RM = max(scaled, epley) when delta ≥ 0; = scaled when delta < 0.**
+  qualifying set at its cap (§2): `epley = load × (1 + (reps + cap) / 30)`, valid while
+  reps + cap ≤ 12. **New e1RM = max(scaled, epley) when delta ≥ 0; = scaled when delta < 0.**
   Next week's load = next week's % × new e1RM, rounded to the equipment increment.
 - **Branch 2 (no e1RM):** the step replaces the table's "+1 increment if clean":
 
