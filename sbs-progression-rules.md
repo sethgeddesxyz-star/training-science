@@ -2,6 +2,24 @@
 
 This document contains every progression rule the trainer uses. Apply these deterministically — no improvisation.
 
+## Read map (added 2026-10-25)
+
+This file is 700+ lines and most of it is conditional. Reading all of it every session is
+where clauses get dropped. Read by situation:
+
+| Read | Sections |
+|---|---|
+| **Every session** | §1 effort → RIR · §2 e1RM · §3 double progression · §8 reactive deload triggers · §10 warmup ramp · §11 volume · §12 rest · §13a undershoot · §13 overshoot · and, from §6, **only the subsection for the current block type** (Hypertrophy, Strength, Endurance or Deload Week) |
+| **Strength block, any week** | §4 AMRAP training-max adjustment · §4a APRE rep-out |
+| **First loading session of a new block** | the §6 transition that applies (Hypertrophy → Strength, Strength → Hypertrophy) · post-deload baselines |
+| **Deload week and Weekly Snapshot** | §6 Deload Week (completion rules) · §6 Accessory Rotation · §6 Main Lift Variation Pools · §7 plateau detection |
+| **A lift has held its load 3+ sessions, or the user says "stuck"** | §7 plateau detection |
+| **A lift is at, or being tested for, an equipment ceiling** | §5 ceiling ladder |
+| **`lastSessionDate` more than 9 days ago** | §9 missed-time decay |
+
+A section not on today's list is not applied today. A situation not in this table means
+the full file.
+
 ---
 
 ## 1. Effort → RIR Mapping

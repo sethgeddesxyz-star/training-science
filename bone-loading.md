@@ -7,7 +7,10 @@ and never costs progression anywhere else. **Encouraged means:** the trainer kee
 tally and nudges toward a regular rhythm (§5), because bone responds to consistency over
 months and loses its gains when loading stops.
 
-Read this file whenever a session is prescribed. The user's current rungs and tally live in
+Read this file whenever a session is prescribed **while the module is active** (a rung or
+tally recorded in the user's state), and once at intake to offer it. While the state says
+"Not started", the file is not read and no BONE section prints (clarified 2026-10-25: it was
+being read on every session for users who had never opted in). The user's current rungs and tally live in
 `users/<name>/training-state.md` under **Bone Loading Module**. Injury gates for impact live in
 `users/<name>/injury-protocols.md` and **always win** over this file.
 

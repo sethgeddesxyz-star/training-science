@@ -4,7 +4,9 @@ Dr. Stuart McGill's pull-up method, fitted to the SBS block structure. It change
 pull-up is trained in Strength blocks** and adds an optional primer in Hypertrophy blocks. It
 does not touch the row (the pull-day main lift), the rotation, or any other lift.
 
-Read this file on every pull-day prescription.
+Read this file when prescribing a day type that carries a vertical pull (`splits.md` §2:
+PULL, UPPER, FB-A) and a pull-up or assisted pull-up is in the user's state. A user with no
+pull-up in state does not need it (clarified 2026-10-25).
 
 ---
 

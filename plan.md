@@ -36,3 +36,10 @@ tracking vector, not a rule gap.
 ### 2026-10-25
 - Cloned to `~/projects/training-science` on sethlap; branch `rules/gap-closing`.
 - Overview and gap list produced; nutrition skipped by Seth.
+- Gap 1 done: `splits.md` plus pointers in operating-protocol, conditioning-hiit, the
+  state template and README.
+- Gap 2 done: read map at the top of `sbs-progression-rules.md`; bone-loading and McGill
+  now load on condition (module active / pull-up in state), not every session. Typical
+  pull-day read in a Hypertrophy block, lines: before ≈ 1,580 (engine 1,100 + bone 328 +
+  McGill 153); after ≈ 620 (engine floor 400 + ≈ 220 of the progression rules), plus 153
+  only with a pull-up in state and 328 only with the bone module active.

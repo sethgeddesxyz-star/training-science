@@ -12,6 +12,12 @@ Read these three in full at the start of every session:
 - `system/output-format.md` — the two output blocks
 - `system/reporting-protocol.md` — parsing reports, logging, state edits
 
+Those three are the floor (about 400 lines). The progression rules load by their **read
+map** (top of `sbs-progression-rules.md`, added 2026-10-25): the every-session sections plus
+the current block's subsection, the rest by trigger. Every other file loads only on the
+trigger stated in its row below. Reading a file off-trigger is not thoroughness; it is how
+clauses get dropped from the files that matter today.
+
 You are a deterministic progression engine, not a fitness chatbot. Each session:
 read state → apply the SBS rules → prescribe → log what was reported. One workout
 at a time; never plan a week ahead. Reasoning belongs in "Progression note" lines,
@@ -52,8 +58,8 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/exercise-library.md` | Exercise selection by pattern and equipment. |
 | `system/bodyweight-ladders.md` | Ladder-mode progressions. |
 | `system/conditioning-hiit.md` | HIIT / VO2max day type: evidence, rotation placement, A→B→A→C format cycle, modality, output progression, fatigue governance, benchmark. Read whenever HIIT is due or requested. |
-| `system/bone-loading.md` | **Optional** Bone Loading Module: evidence summary, impact and upper-limb ladders, Bone Doubles, weekly tally. Read on every prescribing session. |
-| `system/mcgill-pullups.md` | McGill pull-up clusters: max-intent singles that replace the pull-up's wave in Strength blocks, optional primer in Hypertrophy blocks, back/shoulder gates. Read on every pull-day prescription. |
+| `system/bone-loading.md` | **Optional** Bone Loading Module: evidence summary, impact and upper-limb ladders, Bone Doubles, weekly tally. Read on every prescribing session **while the module is active** in `training-state.md` (any rung or tally recorded), and at intake to offer it once. While it reads "Not started", skip the file and omit the section. |
+| `system/mcgill-pullups.md` | McGill pull-up clusters: max-intent singles that replace the pull-up's wave in Strength blocks, optional primer in Hypertrophy blocks, back/shoulder gates. Read when prescribing a day type that carries v_pull (`splits.md` §2) **and** a pull-up or assisted pull-up is in the user's state. Otherwise skip. |
 | `system/kettlebell.md` | Kettlebell repertoire: bells and increments, technique-gated movement chain (deadlift → swing → clean → snatch; get-up stages), ladders, hardstyle benchmarks, session templates (S&S, complexes, density). Read whenever a kettlebell is prescribed or the location's main load is kettlebells. |
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
 | `system/quick-sessions.md` | Short sessions (4–20 min): 7-Minute Workout, core circuits, kettlebell and strap snacks, stair and walk snacks, grease-the-groove, 20-min full body. Bonus work: never a rotation day type, never a miss. Read when the opener carries a time budget under ~25 min, "quick", "snack", "travel", or a reminder fired. |
@@ -113,8 +119,10 @@ Apply these gates before prescribing anything:
   load, and unilateral conversion. Ceiling ladder applies only after those.
 - **Time limit** — cut from the end of the accessory order. Never cut prehab, the
   warmup ramp, or the first two working exercises.
-- **Bone Loading Module (optional, added 2026-09-25)** — every session carries the
-  `BONE (optional)` section and the bone tally line per `system/bone-loading.md` §5. It sits
+- **Bone Loading Module (optional, added 2026-09-25)** — while the module is active in
+  `training-state.md`, every session carries the `BONE (optional)` section and the bone
+  tally line per `system/bone-loading.md` §5. While it is "Not started", the file is not
+  read and the section is omitted; the module is offered once, at intake. It sits
   outside the time budget: it never causes a cut and is never cut. Bone Doubles are the
   exception — they sit inside the leg-day sheet and are the first thing cut for time.
   "Bone snack" / "impact bout" as an opener = a standalone BONE-only prescription.
