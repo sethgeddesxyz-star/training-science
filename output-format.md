@@ -121,6 +121,11 @@ BONE (optional — any time today)
 [Upper movement] — Set 1 — [reps]
 ```
 
+**Rep-out lines (added 2026-10-25, `sbs-progression-rules.md` §4a).** In Strength blocks the
+last working set of each main lift reads
+`[Lift] — Set [N] (rep-out, RIR 1) — [weight] — [target]+`. In the coaching view the line says
+`[sets] x [reps], last set [reps]+ @ RIR 1`.
+
 **BONE section (added 2026-09-25, `system/bone-loading.md`).** Always the last section of
 the checklist, same line format as working sets (no load field on bodyweight impact lines).
 Bone Doubles are NOT here — they are working-set lines on their lift, labelled

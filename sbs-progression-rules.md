@@ -116,7 +116,9 @@ After applying the decision tree:
 
 Applies to **main compound lifts only** (bench, squat, deadlift, OHP, row).
 
-The last working set of main lifts is an AMRAP (As Many Reps As Possible) — the user does max reps at the prescribed weight.
+The adjustment is scored on a main lift's rep-out set: the Strength-block rep-out (§4a) every
+loading week, including the Week 4 AMRAP. Hypertrophy, Endurance and Deload blocks have no
+rep-out and no TM adjustment.
 
 Calculate: `delta = actual_amrap_reps - target_reps`
 
@@ -132,6 +134,73 @@ Calculate: `delta = actual_amrap_reps - target_reps`
 | ≤ -2 | × 0.95 | Decrease TM by 5% |
 
 Always round the new TM to the nearest available weight.
+
+---
+
+## 4a. APRE Rep-Out (Strength blocks, added 2026-10-25, approved)
+
+Autoregulatory Progressive Resistance Exercise (Knight's DAPRE; Mann et al., *J Strength Cond
+Res* 2010, 24(7):1718-23: APRE beat linear periodization on bench and squat 1RM over 6 weeks in
+college athletes). One capped all-out set per lift per session sets the next session's load,
+so the wave tracks what the lifter can do now, not the e1RM from weeks ago. This replaces the
+once-per-block Week 4 feedback with a feedback step every loading week. It runs
+**session-to-session only**: the rep-out never changes a load within the same session.
+
+**Scope.** Strength blocks, loading Weeks 1-4, **main lifts on the wave only** (both branches of
+the §6 transition table). Not accessories or secondary compounds (they stay on §3), not the
+pull-up's McGill clusters, not Bone Doubles, not deload weeks, not Hypertrophy or Endurance
+blocks. A block already in progress adopts it from its next loading week; earlier weeks are
+not rescored.
+
+**The set.** The **last prescribed working set** of the lift becomes the rep-out, at the same
+load and rest as the other sets:
+
+| Week | Prescription | Rep-out set | Target |
+|------|--------------|-------------|--------|
+| 1 | 4 × 5 @ 77.5% | Set 4: 5+ | 5 |
+| 2 | 4 × 4 @ 82.5% | Set 4: 4+ | 4 |
+| 3 | 5 × 3 @ 85% | Set 5: 3+ | 3 |
+| 4 | 3 × 2 @ 87.5% + AMRAP @ 85% | the AMRAP set: 3+ | 3 |
+
+**The cap is RIR 1, never failure.** Stop when one more clean rep is all that is left, or at the
+first form break, whichever comes first. Every injury stop rule in the user's
+`injury-protocols.md` still ends the set at once. A set ended by a stop rule, or with any pain
+or joint-sensation report, is **not scored**: the lift holds its load next week and the Pain
+Response Protocol applies as usual.
+
+**Scoring.** `delta = rep-out reps − target`, using the reps as logged (the RIR-1 cap makes the
+§4 table one rep conservative, on purpose). Then, for the next loading week:
+
+- **Branch 1 (lift has an e1RM):** `scaled = stored e1RM × §4 multiplier`. The rep-out is also a
+  qualifying set at RIR 1 (§2): `epley = load × (1 + (reps + 1) / 30)`, valid while
+  reps + 1 ≤ 12. **New e1RM = max(scaled, epley) when delta ≥ 0; = scaled when delta < 0.**
+  Next week's load = next week's % × new e1RM, rounded to the equipment increment.
+- **Branch 2 (no e1RM):** the step replaces the table's "+1 increment if clean":
+
+  | Delta | Next week's load |
+  |-------|-----------------|
+  | ≤ −2 | −1 increment |
+  | −1 | hold |
+  | 0 to +2 | +1 increment |
+  | ≥ +3 | +2 increments |
+
+  Log the rep-out's Epley value so the lift can move to branch 1 at the next block boundary
+  (§6 transition rule 4).
+
+**Interactions.**
+- A rep-out below target is scored by the table, not by §3: it does not increment `failCount`.
+  A straight (non-rep-out) set below its prescribed reps still follows §3 Step 1.
+- §13a needs no "easy" flag here: the rep count is the effort report. An "easy" note on a
+  straight set still triggers §13a for that week's straight sets.
+- After a Week 4 rep-out, the new e1RM is the value the next block (Hypertrophy maintenance
+  set, §6 Strength → Hypertrophy transition) reads.
+- The rep-out counts as one set at its load for `bone-loading.md` axial exposure, like any
+  other working set.
+
+**Reporting.** The checklist shows the target with a `+` and the cap
+(`Bench — Set 4 (rep-out, RIR 1) — 115 lb — 4+`). The user writes the reps actually done. An
+**unchanged** line means exactly the target (delta 0), per the effort-by-exception rule. Ask
+only if the number is ambiguous.
 
 ---
 
@@ -225,7 +294,11 @@ Training is organized into repeating blocks of 4 loading weeks + 1 deload week.
 | 3 | 5 × 3 | 85% | 240s |
 | 4 | 3 × 2 + AMRAP | 87.5% + 85% | 270s |
 
-**Week 4 AMRAP:** After the 3×2 heavy sets, do 1 AMRAP set at 85% e1RM. Apply the TM adjustment table (§4).
+**Week 4 AMRAP:** After the 3×2 heavy sets, do 1 AMRAP set at 85% e1RM, capped at RIR 1.
+
+**Rep-out every week (§4a).** On main lifts the last working set of each loading week is a
+rep-out capped at RIR 1 (the Week 4 AMRAP is that week's rep-out). Its score sets next week's
+load through the §4 table.
 
 **Accessories during strength blocks:** 4-8 sets/muscle/week at 6-10 reps (maintenance hypertrophy).
 
