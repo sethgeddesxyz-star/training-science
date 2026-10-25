@@ -45,6 +45,7 @@ Per `operating-protocol.md` §1 and the read map in `sbs-progression-rules.md`:
 | Quick session | no (60 min, no trigger word) |
 | Straps-only / KB-only location | no |
 | Missed time | 3 days: no decay |
+| Readiness | no flag word in the opener: `readiness.md` not read, no adjustment |
 | Injury flags | right shoulder: prehab block prescribed verbatim; Barbell OHP and Dips excluded (neither is on FB-A anyway) |
 | Unknown exercise | none |
 | Loads | DB pairs by 5 lb; nothing at the 50 lb ceiling |

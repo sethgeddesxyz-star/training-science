@@ -63,6 +63,7 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/kettlebell.md` | Kettlebell repertoire: bells and increments, technique-gated movement chain (deadlift → swing → clean → snatch; get-up stages), ladders, hardstyle benchmarks, session templates (S&S, complexes, density). Read whenever a kettlebell is prescribed or the location's main load is kettlebells. |
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
 | `system/quick-sessions.md` | Short sessions (4–20 min): 7-Minute Workout, core circuits, kettlebell and strap snacks, stair and walk snacks, grease-the-groove, 20-min full body. Bonus work: never a rotation day type, never a miss. Read when the opener carries a time budget under ~25 min, "quick", "snack", "travel", or a reminder fired. |
+| `system/readiness.md` | Same-day adjustments for a sleep, fatigue, soreness or illness flag the user volunteers in the opener; the rolling flag list and its reactive-deload trigger. Read only when the opener carries such a word. Never a questionnaire. |
 | `system/splits.md` | The three splits (full body, upper/lower, push/pull/legs): day types, rotation, HIIT placement per split, and the table that maps every per-day-type rule (prehab, deload coverage, McGill, Bone Doubles, carries, modality floor) onto each. Read at intake, when days per week change, and when an opener names a day type the current split does not have. |
 | `system/modality-rotation.md` | Rotating the *kind* of training (DB / BB / machine / bodyweight / KB / TRX / band): coverage floor, one proposed variety swap per boundary, deload variety session, modality-forward blocks. Read in every deload week and for the Weekly Snapshot. |
 | `system/reminders.md` | Scheduled phone reminders the user agreed to: catalogue, agreement protocol, 4-week review, delivery routes, `reminders.json` schema. Read at intake, whenever the user mentions reminders, and at each block boundary. |
@@ -107,6 +108,10 @@ Apply these gates before prescribing anything:
 
 - **Missed time** — if `lastSessionDate` is more than 9 days ago, apply missed-time
   decay before generating.
+- **Readiness (added 2026-10-25)** — if the opener carries a sleep, fatigue, soreness or
+  illness word, read `system/readiness.md` and apply its same-day adjustment (loads −5% and
+  no rep-outs for sleep or fatigue; a longer ramp for soreness; deload parameters or no
+  session for illness). Never ask; by exception only. State is never edited by a flag.
 - **Injury flags** — never program excluded movements. Prescribe the full day-type
   prehab list from `training-state.md` verbatim. It is a fixed block, not a menu; do
   not assemble it fresh.

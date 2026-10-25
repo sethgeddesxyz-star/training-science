@@ -27,6 +27,7 @@ Current progression state for all tracked exercises. Updated after every workout
 - **Deload**: scheduled after Week 4. Deferred: no.
 - **Implement tier** (main-lift slots): 1 (DB). Rotation counter: 0.
 - **Last Weekly Snapshot**: 2026-10-20
+- **Readiness flags (last 4 sessions)**: — · — · — · —
 
 ---
 

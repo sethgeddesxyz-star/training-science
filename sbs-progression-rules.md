@@ -640,6 +640,7 @@ These override the scheduled deload and trigger one immediately:
 1. **e1RM regressing** — status = REGRESSING on any main lift
 2. **Multiple lifts declining** — ≥ 2 main lifts with e1RM down 2+ consecutive weeks
 3. **RPE overshoot** — ≥ 2 consecutive sessions where average effort exceeds target by 1.5+ RIR levels (e.g., everything "hard" when target was RIR 3)
+4. **Readiness flags** (added 2026-10-25) — `SLEEP`, `FATIGUE` or `ILL` flags on 3 of the last 4 lifting sessions (`readiness.md` §3; `SORE` does not count)
 
 **Early-block reactive deload (week ≤ 2):** Also reduce next block's volume by 1-2 sets/muscle/week.
 
