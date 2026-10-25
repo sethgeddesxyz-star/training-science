@@ -33,8 +33,8 @@ tracking vector, not a rule gap.
 
 ## Open items
 
-- [ ] Merge `rules/gap-closing` into `main` and push (Seth's call; no deploy gate here, but
-      the branch was chosen at session start). Then tag `v1.1` on the merge commit.
+- [x] Merged `rules/gap-closing` into `main` (fast-forward) and pushed, 2026-10-25. `v1.1`
+      sits on main's head.
 - [ ] Real personal repos (DugTrainerClaude and any other) pull the new rules with
       `git submodule update --remote system` and fill the new state lines (Next due,
       Last Weekly Snapshot, Readiness flags, Aerobic Base) at their next session.
