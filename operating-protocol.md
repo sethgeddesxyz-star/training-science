@@ -172,7 +172,10 @@ the specific revision and flag it for approval before changing anything. Most se
 should produce none. Do not propose revisions for their own sake.
 
 Approved revisions are edited into the relevant `system/` file and pushed to the
-shared repo per §1, then the pointer is committed with the session commit. They change
+shared repo per §1, then the pointer is committed with the session commit. **A revision
+that touches a rule exercised by `system/examples/golden-session.md` re-traces that session
+and updates its numbers and assertions in the same commit** (added 2026-10-25); if an
+assertion no longer holds, say which and why before pushing. They change
 the rules for every user: write them as general rules, with no personal data. Only propose a change to the project settings when the gap is in the
 bootstrap itself — the token, the repo URL, the user directory, or the rule that the
 repo must be read before prescribing. Everything else is a repo edit.

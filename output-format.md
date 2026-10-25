@@ -37,6 +37,9 @@ Block: [Hypertrophy/Strength/Deload] | Week [N] of [Total]
 
 **Estimated duration must be COMPUTED, not asserted (added 2026-09-12, approved).** Sum,
 per exercise: (sets × reps × tempo seconds) + (sets − 1) × rest + 60s setup/transition.
+Tempo seconds = the prescribed tempo where one is given, otherwise **3 s per rep** (default
+added 2026-10-25; the formula had no default and every session was guessing one). Unilateral
+sets count both sides. Where a rep target is a window, estimate at the window top.
 Add the prehab block at 60s per item per round plus 30s transitions, and the warmup ramp
 at its own rest values. Then add a **15% overhead margin** before comparing against the
 user's stated limit. If the total exceeds the limit, cut from the end of the accessory

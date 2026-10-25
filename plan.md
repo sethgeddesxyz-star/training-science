@@ -43,3 +43,11 @@ tracking vector, not a rule gap.
   pull-day read in a Hypertrophy block, lines: before ≈ 1,580 (engine 1,100 + bone 328 +
   McGill 153); after ≈ 620 (engine floor 400 + ≈ 220 of the progression rules), plus 153
   only with a pull-up in state and 328 only with the bone module active.
+- Gap 3 done: `examples/sample-user/` (fictional "Sam Example", full-body split,
+  Hypertrophy Wk 2, shoulder flag, pull-up ladder) and `examples/golden-session.md` with
+  13 assertions. Two small rule holes it exposed were fixed in passing: the duration
+  formula had no default tempo (now 3 s/rep, output-format.md) and the state template had
+  no "last Weekly Snapshot" line.
+- Observed, not changed: the Hypertrophy maintenance set (82.5% e1RM) rounds to the
+  working weight whenever a lift sits at the top of its rep window with 5-lb steps
+  (e1RM = 1.4 × w, 82.5% of that = 1.155 w). It still runs; worth a look later.

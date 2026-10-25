@@ -21,6 +21,7 @@ Current progression state for all tracked exercises. Updated after every workout
 ## Current Block
 
 - **Block type**: not started — first block is Hypertrophy, Week 1 (calibration).
+- **Last Weekly Snapshot**: none (due every 7 days, `system/operating-protocol.md` §5)
 
 ---
 

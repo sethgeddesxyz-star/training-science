@@ -39,6 +39,8 @@ reminders.md                opt-in phone reminders: catalogue, agreement protoco
                             4-week review, delivery routes, reminders.json schema
 scripts/remind.py           the reminder sender (ntfy + cron, or --ics for the phone)
 templates/                  starting files for a new personal repo
+examples/                   a fictional sample user and one golden session traced
+                            rule by rule: the repo's test. Re-trace it when a rule changes
 ```
 
 ## Set up your own trainer
