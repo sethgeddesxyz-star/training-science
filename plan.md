@@ -24,6 +24,25 @@ tracking vector, not a rule gap.
 | 8 | No tags or changelog; personal repos pin a bare hash | Housekeeping | done (`CHANGELOG.md`, tags) |
 | — | Nutrition / bodyweight tracking | Skipped by decision 2026-10-25 | skipped |
 
+## Exercise-type brainstorm (2026-10-26)
+
+Twelve candidate exercise types were ranked against what the repo already covers. The two
+picked first close the "aging athlete" hole the bone module only half covers; the rest are
+listed so they are not re-derived.
+
+| # | Module | Why | Status |
+|---|--------|-----|--------|
+| 1 | Power and plyometrics (jumps, throws, intent cue) | Power is lost faster than strength and predicts function; jumping existed only inside the bone module | done (`power-and-plyometrics.md`) |
+| 2 | Balance and fall prevention (static, stepping, reactive) | Strongest fall-prevention evidence of any exercise type; zero coverage | done (`balance.md`) |
+| 3 | Isometrics as a tool (wall squat, handgrip for blood pressure; long holds for tendon pain) | Best BP effect of any mode in the 2023 BJSM meta-analysis; mentioned only as warm-up filler | open |
+| 4 | Fitness benchmarks (grip, 30-s sit-to-stand, dead hang, push-up count, walk/run VO2 estimate) | A whole-person scorecard every 8–12 weeks; KB, HIIT, power and balance each have one, nothing joins them | open |
+| 5 | Band repertoire | Named as a modality family but, unlike KB and TRX, has no file | open |
+| 6 | Prehab hotspot library (calves, tibialis, ankle, neck, rotator cuff, Nordics) | Referenced in 17 files, exercises scattered; calves and feet nearly absent | open |
+| 7 | Rucking / loaded walking | Bridges aerobic minutes, bone loading and carries | open |
+| 8 | Jump rope snack | Quick session plus impact | open |
+| 9–11 | Sandbag / odd objects · skill and play days · neck, forearm, calf as declared goals | nice to have | parked |
+| — | Daily steps | A tracking vector, same reason as nutrition | skipped |
+
 ## Working rules for this repo
 
 - Every new rule file: `# Title — one line (added YYYY-MM-DD, user request)`, numbered
@@ -42,6 +61,8 @@ tracking vector, not a rule gap.
       5-lb steps; decide whether that is fine or the rule wants a floor (e.g. skip the set
       when it rounds to ≤ working weight).
 - [ ] Add a `training-science` row to `~/.claude/references/projects.md`.
+- [ ] Next module from the brainstorm table, if wanted: isometrics (#3) or fitness
+      benchmarks (#4); the benchmark one would also absorb the power and balance benchmarks.
 
 ## Session notes
 
@@ -82,3 +103,21 @@ tracking vector, not a rule gap.
 - Observed, not changed: the Hypertrophy maintenance set (82.5% e1RM) rounds to the
   working weight whenever a lift sits at the top of its rep window with 5-lb steps
   (e1RM = 1.4 × w, 82.5% of that = 1.155 w). It still runs; worth a look later.
+
+### 2026-10-26
+- Brainstorm of further exercise types (table above); Seth picked power first, balance next.
+- `power-and-plyometrics.md` (optional): primer between prehab and the ramp (fixed 180 s,
+  cut after Bone Doubles and before accessories), intent cue in Strength blocks, jump ladder
+  (6 rungs, 12" drop jump the top) and throw ladder (5 rungs, or the bone upper ladder
+  without a ball), standalone bouts 48 h apart on the cardio cap, weekly tally, broad-jump
+  benchmark, `power` reminder kind. Any readiness flag drops the day's power work. Shares
+  one jump bout and one knee gate with the bone module.
+- `balance.md` (optional): static ladder S1–S8 and dynamic ladder D1–D8, the static rung
+  appended to the leg-day general warm-up (+60 s, never cut), 7-min standalone sessions,
+  minutes target Floor 30 / Build 90 / Fall-prevention 180 counting bouts from 2 min and
+  classes, one-leg-stance + four-stage + TUG benchmark, Snapshot check for one unilateral
+  lower-body lift a week, `balance` reminder kind, re-offer triggers (bone module, 60, a
+  fall, a closed lower-limb protocol).
+- Golden session re-traced: both modules "Not started" for Sam, so no number changes;
+  the not-read table, the gate table and assertions 1, 6 and 7 now name them.
+- `CHANGELOG.md` v1.2; tag `v1.2` on main.

@@ -50,6 +50,13 @@ to the Power Module's bout log in `training-state.md` and recompute the tally
 (`system/power-and-plyometrics.md` §8). When the bone module is also active, a jump bout
 logs to both (its §9 mapping).
 
+**Balance lines** (optional module, added 2026-10-26): unchanged = clean at the prescribed
+hold or count; a number of seconds = the hold achieved, not clean; "touched", "grabbed" or
+"stepped" = not clean; deleted or `x` = not performed. None is a miss. "Dizzy" routes to
+`system/balance.md` §2, never to a readiness flag. Log every bout, including the leg-day
+warm-up line, to the Balance Module's bout log in `training-state.md` and recompute the
+minutes (`system/balance.md` §8).
+
 **Quick-session lines** (`system/quick-sessions.md` §6): unchanged = done; a number on a
 circuit or EMOM line = rounds or minutes completed; `x` = skipped, which is **not a miss**.
 Log to the Quick Sessions log in `training-state.md`, advance that session's own small

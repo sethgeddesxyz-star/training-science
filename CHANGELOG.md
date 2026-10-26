@@ -5,6 +5,32 @@ pin by name (`git -C system checkout v1.1`), and each entry says what changed fo
 trainer's behaviour. Dates are the day the rule landed. Inside the rule files, every added
 or clarified rule also carries its own `(added YYYY-MM-DD)` note.
 
+## v1.2 — 2026-10-26
+
+Two optional modules from the 2026-10-26 brainstorm, one commit each, both "Not started"
+until a user opts in and not read before then.
+
+- **`power-and-plyometrics.md`** (new, optional). A 3-set power primer between prehab and
+  the warmup ramp (fixed 180 s; cut after Bone Doubles, before any accessory), the
+  explosive-intent cue on Strength-block main lifts, a six-rung jump ladder and a
+  five-rung throw ladder, standalone 15-min bouts (48 h apart, on the cardio cap), a
+  weekly tally with a nudge line, a broad-jump benchmark every 8 weeks, and a `power`
+  reminder kind. Any readiness flag drops the day's power work. A jump bout feeds the bone
+  tally too when both modules are active, and the two share one knee gate.
+- **`balance.md`** (new, optional). An eight-rung static ladder and an eight-rung dynamic
+  ladder (heel-to-toe through reactive stepping), the current static rung appended to the
+  leg-day general warm-up (fixed +60 s, never cut), standalone 7-min sessions, a weekly
+  minutes target (Floor 30 / Build 90 / Fall-prevention 180) counting bouts from 2 min and
+  classes such as tai chi, a one-leg-stance and four-stage benchmark every 8 weeks, a
+  Snapshot check that the week carries one unilateral lower-body lift, and a `balance`
+  reminder kind. Re-offered once when the bone module activates, at 60, on a reported fall,
+  or when a lower-limb protocol closes.
+- Pointers added in `operating-protocol.md` (rows, §2 gates, Snapshot), `output-format.md`
+  (POWER section, balance line, estimate), `splits.md` §4, `warmup-and-mobility.md` §2,
+  `reminders.md` §2, `reporting-protocol.md`, `readiness.md` §2, `bone-loading.md` §5, the
+  state templates, the sample user and the golden session (both modules not read; assertions
+  1, 6 and 7 name them).
+
 ## v1.1 — 2026-10-25
 
 Closing the gaps found in the 2026-10-25 overview. Nine commits on `rules/gap-closing`.

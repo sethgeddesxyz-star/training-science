@@ -60,6 +60,7 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/conditioning-hiit.md` | HIIT / VO2max day type: evidence, rotation placement, A→B→A→C format cycle, modality, output progression, fatigue governance, benchmark. Read whenever HIIT is due or requested. |
 | `system/bone-loading.md` | **Optional** Bone Loading Module: evidence summary, impact and upper-limb ladders, Bone Doubles, weekly tally. Read on every prescribing session **while the module is active** in `training-state.md` (any rung or tally recorded), and at intake to offer it once. While it reads "Not started", skip the file and omit the section. |
 | `system/power-and-plyometrics.md` | **Optional** Power Module (added 2026-10-26): the in-session power primer (3 explosive sets before the first ramp), the explosive-intent cue in Strength blocks, jump and throw ladders, standalone bouts, weekly tally, broad-jump benchmark. Read on every prescribing session **while the module is active** in `training-state.md`, when the opener says "power", "jumps", "plyos" or "throws", and at intake to offer it once. While it reads "Not started", skip the file and omit the section. |
+| `system/balance.md` | **Optional** Balance Module (added 2026-10-26): static and dynamic ladders, a one-line addition to the leg-day general warm-up, standalone 7-min sessions, weekly minutes target, one-leg-stance benchmark. Read on every prescribing session **while the module is active** in `training-state.md`, when the opener says "balance", "stability", "wobbly", "tripped", "fell" or "near fall", and at intake to offer it once. Re-offered once when the bone module activates, the user turns 60, a fall is reported, or a lower-limb Pain Response Protocol closes. While it reads "Not started", skip the file and omit the line. |
 | `system/mcgill-pullups.md` | McGill pull-up clusters: max-intent singles that replace the pull-up's wave in Strength blocks, optional primer in Hypertrophy blocks, back/shoulder gates. Read when prescribing a day type that carries v_pull (`splits.md` §2) **and** a pull-up or assisted pull-up is in the user's state. Otherwise skip. |
 | `system/kettlebell.md` | Kettlebell repertoire: bells and increments, technique-gated movement chain (deadlift → swing → clean → snatch; get-up stages), ladders, hardstyle benchmarks, session templates (S&S, complexes, density). Read whenever a kettlebell is prescribed or the location's main load is kettlebells. |
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
@@ -150,6 +151,12 @@ Apply these gates before prescribing anything:
   `system/power-and-plyometrics.md`. A readiness flag or an opening Pain Response Protocol
   drops the primer for the day. "Power bout" / "jumps" / "plyos" as an opener = a standalone
   bout: not a rotation day, counts toward the weekly cardio cap.
+- **Balance Module (optional, added 2026-10-26)** — while the module is active in
+  `training-state.md`, every leg-loading session appends the current static rung to the
+  general warm-up's joint-prep round (`GENERAL`, fixed +60 s, never cut) and the tally line
+  prints, per `system/balance.md` §4. Nothing is added to the sheet. "Balance" /
+  "stability" as an opener = a standalone 7-min session: not a rotation day, never a miss,
+  not on the cardio cap. Eyes-closed and cushion rungs never run on a readiness flag.
 
 **Split:** 2–3 days/week → full body (`FB-A` / `FB-B`) · 4 → upper/lower · 5+ → push/pull/legs.
 Day types, rotation and the per-split mapping of every day-type rule are in `system/splits.md`
@@ -184,7 +191,9 @@ past ceiling under the Accessory Rotation rule (`sbs-progression-rules.md` §6),
 group vs. target, **modality families per day type and any coverage-floor failure**
 (`modality-rotation.md` §3), **aerobic base**: minutes vs the weekly target, sessions, and
 consecutive weeks on target (`aerobic-base.md` §4), **power** (while active): bouts vs
-target per ladder, rung changes, benchmark when due (`power-and-plyometrics.md` §8), **quick sessions and reminders**: snacks
+target per ladder, rung changes, benchmark when due (`power-and-plyometrics.md` §8),
+**balance** (while active): minutes vs target, bouts, rung changes, the unilateral-lift
+check, benchmark when due (`balance.md` §8), **quick sessions and reminders**: snacks
 done this week by family, and, every 4th snapshot (block boundary), each reminder's hit rate
 with a keep / change / drop question for any under one in three (`reminders.md` §1).
 

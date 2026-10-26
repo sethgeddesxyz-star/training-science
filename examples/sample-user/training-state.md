@@ -74,6 +74,12 @@ Rules: `system/power-and-plyometrics.md`. Not started (offered at intake, declin
 
 ---
 
+## Balance Module (OPTIONAL)
+
+Rules: `system/balance.md`. Not started (offered at intake, declined for now).
+
+---
+
 ## Kettlebell
 
 None owned. Not started.

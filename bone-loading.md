@@ -243,6 +243,9 @@ computed.
 
 ---
 
+**Balance Module (added 2026-10-26).** Activating this module re-offers `balance.md` once,
+in one line: a fracture is a fall plus a fragile bone, and this file covers only the bone.
+
 **Power Module interaction (added 2026-10-26).** When `power-and-plyometrics.md` is also
 active, one jump bout a day feeds both tallies under its §9 mapping (power rung 1 = bone
 Rung 2; power rungs 2–6 = bone Rung 5), and the two files share one knee gate. Heel drops

@@ -52,6 +52,7 @@ The sender is `system/scripts/remind.py`. Neither holds anything secret; the pus
 | `quick:mobility` | The user's fixed prehab block as a 5-min snack, or the mobility snack | daily, evening | `quick-sessions.md`, `injury-protocols.md` | fixed |
 | `walk` | 5-min walk break | 1–3 fixed times on desk days | `quick-sessions.md` | fixed |
 | `aerobic` | "Aerobic this week: [done]/[target] min, [n] days left" | on stated rest days, morning | `aerobic-base.md` §4 | state-driven (rolling 7-day tally) |
+| `balance` | An anchored stance bout: "Kettle / teeth: [position] (S[rung]), [hold] each side" | daily, at the user's named anchor | `balance.md` §6 | state-driven (rung table) |
 | `power` | Today's jump and throw rungs with doses; "48 h since the last lower bout?" | 1–2×/week, non-leg days, morning | `power-and-plyometrics.md` §6 | state-driven (rung table) |
 | `gtg` | Grease-the-groove set (pull-up / push-up, ≤ 50% max) | 2–4 fixed times/day on non-pull days | `bodyweight-ladders.md` gap bridge 1 | state-driven (current step) |
 | `state:train` | "Next up: [day type]. HIIT due? Deload?" on the user's stated training days | per training day, morning | `operating-protocol.md` §2 | state-driven |

@@ -27,6 +27,9 @@ aerobic-base.md             easy aerobic work as a weekly minutes target: dose l
 power-and-plyometrics.md    OPTIONAL power module: the in-session power primer, the
                             explosive-intent cue, jump and throw ladders, standalone
                             bouts, weekly tally, broad-jump benchmark
+balance.md                  OPTIONAL balance module: static and dynamic ladders, the
+                            leg-day warm-up line, standalone 7-min sessions, weekly
+                            minutes target, one-leg-stance benchmark
 mcgill-pullups.md           McGill pull-up clusters: Strength-block pull-up method
 bone-loading.md             OPTIONAL bone-density module: research summary, impact
                             and upper-limb ladders, Bone Doubles, weekly tally

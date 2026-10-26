@@ -51,6 +51,10 @@ Rules:
    a mobility session. One round.
 3. A knee flag swaps the paused squat for a wall sit 20 s; a shoulder flag drops shoulder
    CARs to pain-free range and keeps them.
+4. **While the Balance Module is active** (`balance.md` §4, added 2026-10-26), the
+   `LEGS`, `LOWER`, `FB-A` and `FB-B` rounds end with the user's current static balance
+   rung, one set per side, about 60 s (fixed +60 s in the estimate). It is the one addition
+   this block ever takes, and it leaves with the module.
 
 ---
 

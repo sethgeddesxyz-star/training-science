@@ -14,7 +14,7 @@ Block: [Hypertrophy/Strength/Deload] | Week [N] of [Total]
 
 ### General Warm-up (3 min)
 - Raise: [modality] 2 min easy
-- Joint prep, one round: [day type's items, `warmup-and-mobility.md` §2]
+- Joint prep, one round: [day type's items, `warmup-and-mobility.md` §2] [· Balance: [position] (S[rung]) [hold]/side — leg-loading days while the Balance Module is active]
 
 ### Prehab (if injury flags active)
 - [Prehab exercise]: [sets] x [reps]
@@ -49,7 +49,8 @@ Tempo seconds = the prescribed tempo where one is given, otherwise **3 s per rep
 added 2026-10-25; the formula had no default and every session was guessing one). Unilateral
 sets count both sides. Where a rep target is a window, estimate at the window top.
 Add the general warm-up at a fixed 180 s (`warmup-and-mobility.md` §1, added 2026-10-25),
-the power primer at a fixed 180 s when it prints (`power-and-plyometrics.md` §2, added
+plus a fixed 60 s on leg-loading days while the Balance Module is active (`balance.md` §4,
+added 2026-10-26; part of GENERAL, never cut), the power primer at a fixed 180 s when it prints (`power-and-plyometrics.md` §2, added
 2026-10-26; cut after Bone Doubles and before any accessory),
 the prehab block at 60s per item per round plus 30s transitions, and the warmup ramp
 at its own rest values. Then add a **15% overhead margin** before comparing against the
@@ -152,6 +153,11 @@ last working set of each main lift reads
 module is active. Sits after `PREHAB` and before `WARMUP`; one line per set, rest once per
 movement, no load field on bodyweight jumps, the ball weight as the load field on throws
 (`Box jump 12" (L2) — Set 1 — 4`, `Standing chest pass (U2) — Set 1 — 8 lb — 5`).
+
+**Balance line (added 2026-10-26, `system/balance.md` §4, §8).** Only while the module is
+active, on leg-loading days: the last line of `GENERAL`, `Balance: [position] (S[rung]) —
+[hold]/side`. A standalone balance session is a single `BALANCE` block (one line per set,
+hold or count in the last field) under the quick-session header style.
 
 **BONE section (added 2026-09-25, `system/bone-loading.md`).** Always the last section of
 the checklist, same line format as working sets (no load field on bodyweight impact lines).

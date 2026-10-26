@@ -65,6 +65,12 @@ Rules: `system/power-and-plyometrics.md`. Not started.
 
 ---
 
+## Balance Module (OPTIONAL)
+
+Rules: `system/balance.md`. Not started.
+
+---
+
 ## Kettlebell
 
 Rules: `system/kettlebell.md` §8. Bells available: (from equipment-profiles.md). No lifts
