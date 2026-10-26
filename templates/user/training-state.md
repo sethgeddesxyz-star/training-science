@@ -78,6 +78,13 @@ next due date, and the results table with one column per card.)
 
 ---
 
+## Isometrics Module (OPTIONAL)
+
+Rules: `system/isometrics.md`. Not started. (Once started: BP protocol line with mode,
+step and sessions; readings line if the user logs them; tendon sites; bout log.)
+
+---
+
 ## Kettlebell
 
 Rules: `system/kettlebell.md` §8. Bells available: (from equipment-profiles.md). No lifts

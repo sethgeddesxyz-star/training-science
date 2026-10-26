@@ -87,6 +87,13 @@ benchmark runs on its own clock).
 
 ---
 
+## Isometrics Module (OPTIONAL)
+
+Rules: `system/isometrics.md`. Not started (blood pressure not raised at intake; no tendon
+named).
+
+---
+
 ## Kettlebell
 
 None owned. Not started.

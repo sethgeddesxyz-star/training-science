@@ -62,6 +62,7 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/power-and-plyometrics.md` | **Optional** Power Module (added 2026-10-26): the in-session power primer (3 explosive sets before the first ramp), the explosive-intent cue in Strength blocks, jump and throw ladders, standalone bouts, weekly tally, broad-jump benchmark. Read on every prescribing session **while the module is active** in `training-state.md`, when the opener says "power", "jumps", "plyos" or "throws", and at intake to offer it once. While it reads "Not started", skip the file and omit the section. |
 | `system/balance.md` | **Optional** Balance Module (added 2026-10-26): static and dynamic ladders, a one-line addition to the leg-day general warm-up, standalone 7-min sessions, weekly minutes target, one-leg-stance benchmark. Read on every prescribing session **while the module is active** in `training-state.md`, when the opener says "balance", "stability", "wobbly", "tripped", "fell" or "near fall", and at intake to offer it once. Re-offered once when the bone module activates, the user turns 60, a fall is reported, or a lower-limb Pain Response Protocol closes. While it reads "Not started", skip the file and omit the line. |
 | `system/benchmarks.md` | The scorecard (added 2026-10-26): an equipment-free core set (one-leg stance, 30-s chair stand, push-up max, grip or dead hang, sit and rise, one aerobic test, broad jump when cleared, main-lift e1RMs read from state) plus the HIIT, kettlebell, power and balance benchmarks folded in while active; one due date every 8 weeks taken in the deload week, one results table, trend and a norm band once. Read when a scorecard is due, when the opener says "test", "benchmark", "scorecard" or "how am I doing", and at intake to set the baseline. While it reads "Not started", skip the file; each module's own benchmark then runs on its own clock. |
+| `system/isometrics.md` | **Optional** Isometrics Module (added 2026-10-26): held contractions as a tool, two halves. The blood-pressure protocol (wall squat or handgrip, 4 × 2 min, 3×/week, standalone, never cut) and tendon holds the user asks for by naming a tendon (standalone bouts, plus a 3-hold primer before the affected lift's ramp while its protocol is `TEST` or `RAMP`). Read on every prescribing session **while either half is active** in `training-state.md`, when the opener says "blood pressure", "BP", "hypertension", "wall squat", "handgrip", "tendon" (or a named tendon: Achilles, tennis elbow, jumper's knee, plantar fascia) or "isometric", and at intake only if blood pressure is raised. While it reads "Not started", skip the file and print nothing. |
 | `system/mcgill-pullups.md` | McGill pull-up clusters: max-intent singles that replace the pull-up's wave in Strength blocks, optional primer in Hypertrophy blocks, back/shoulder gates. Read when prescribing a day type that carries v_pull (`splits.md` §2) **and** a pull-up or assisted pull-up is in the user's state. Otherwise skip. |
 | `system/kettlebell.md` | Kettlebell repertoire: bells and increments, technique-gated movement chain (deadlift → swing → clean → snatch; get-up stages), ladders, hardstyle benchmarks, session templates (S&S, complexes, density). Read whenever a kettlebell is prescribed or the location's main load is kettlebells. |
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
@@ -164,6 +165,15 @@ Apply these gates before prescribing anything:
   HIIT or aerobic slot. Never in Strength Week 4, on a readiness flag, within 48 h after
   HIIT, or on a joint under an open protocol (that test is deferred). "Test" /
   "benchmark" / "scorecard" as an opener = the test session, due or not.
+- **Isometrics Module (optional, added 2026-10-26)** — while the blood-pressure protocol is
+  active, nothing changes inside a lifting session; the tally line prints and "wall squat"
+  / "handgrip" / "BP session" as an opener = a standalone 4 × 2 min session (`isometrics.md`
+  §2), outside every time budget, never a miss, never on the cardio cap. While a tendon
+  site is recorded and the affected lift's Pain Response Protocol is `TEST` or `RAMP`, the
+  session where that lift is due carries an `ISOMETRIC` primer (3 × 45 s, fixed 255 s,
+  never cut) directly before `WARMUP` (`isometrics.md` §3). Holds never change a
+  protocol's state. A blood-pressure reading of 180/120 or higher reported for the day drops
+  the day's isometric and HIIT work with the one line in `isometrics.md` §2.
 
 **Split:** 2–3 days/week → full body (`FB-A` / `FB-B`) · 4 → upper/lower · 5+ → push/pull/legs.
 Day types, rotation and the per-split mapping of every day-type rule are in `system/splits.md`
@@ -201,7 +211,10 @@ consecutive weeks on target (`aerobic-base.md` §4), **power** (while active): b
 target per ladder, rung changes, benchmark when due (`power-and-plyometrics.md` §8),
 **balance** (while active): minutes vs target, bouts, rung changes, the unilateral-lift
 check, benchmark when due (`balance.md` §8), **scorecard** (while active): "due [date]"
-from the due date until taken, then the card's headline once (`benchmarks.md` §6), **quick sessions and reminders**: snacks
+from the due date until taken, then the card's headline once (`benchmarks.md` §6),
+**isometrics** (while active): BP sessions vs 3 and the step, the readings trend once two
+4-week averages exist, open tendon sites with their next-morning trend, the 8-week review
+question when due (`isometrics.md` §6), **quick sessions and reminders**: snacks
 done this week by family, and, every 4th snapshot (block boundary), each reminder's hit rate
 with a keep / change / drop question for any under one in three (`reminders.md` §1).
 

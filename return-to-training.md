@@ -36,6 +36,12 @@ OPEN ──► TEST ──► RAMP ──► CLOSED
 but `CLOSED`. A protocol is per exercise; a joint has an open protocol if any exercise on
 that joint does.
 
+**Tendon holds (added 2026-10-26).** When the user names the pain as tendon pain and the
+Isometrics Module is active, `isometrics.md` §3 adds standalone holds and a 3-hold primer
+before the affected lift's ramp while the protocol is `TEST` or `RAMP`. They run alongside
+the states above and never open, advance or close one; a sensation on the lift itself is
+still a fail here.
+
 ---
 
 ## 2. The test session (`TEST` and `RE-ENTRY`)

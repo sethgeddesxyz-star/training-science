@@ -204,7 +204,8 @@ weeks (and once before the first A session if the user wants a baseline):
   disease may build up to vigorous exercise gradually without clearance.
 - **Stop and see a doctor** for chest pain or pressure, fainting or near-fainting, unusual
   breathlessness, or palpitations. The trainer asks about these once before the first HIIT
-  session and records the answer in the state.
+  session (or before the first blood-pressure isometric session, `isometrics.md` §2,
+  whichever comes first) and records the answer in the state.
 - The first 2 weeks run at the entry doses, finishing each at RPE ≤ 17. Build before going
   maximal.
 - No heavy pre-workout or stimulant use before sprints.

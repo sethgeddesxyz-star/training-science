@@ -34,7 +34,7 @@ listed so they are not re-derived.
 |---|--------|-----|--------|
 | 1 | Power and plyometrics (jumps, throws, intent cue) | Power is lost faster than strength and predicts function; jumping existed only inside the bone module | done (`power-and-plyometrics.md`) |
 | 2 | Balance and fall prevention (static, stepping, reactive) | Strongest fall-prevention evidence of any exercise type; zero coverage | done (`balance.md`) |
-| 3 | Isometrics as a tool (wall squat, handgrip for blood pressure; long holds for tendon pain) | Best BP effect of any mode in the 2023 BJSM meta-analysis; mentioned only as warm-up filler | open |
+| 3 | Isometrics as a tool (wall squat, handgrip for blood pressure; long holds for tendon pain) | Best BP effect of any mode in the 2023 BJSM meta-analysis; mentioned only as warm-up filler | done (`isometrics.md`) |
 | 4 | Fitness benchmarks (grip, 30-s sit-to-stand, dead hang, push-up count, walk/run VO2 estimate) | A whole-person scorecard every 8–12 weeks; KB, HIIT, power and balance each have one, nothing joins them | done (`benchmarks.md`) |
 | 5 | Band repertoire | Named as a modality family but, unlike KB and TRX, has no file | open |
 | 6 | Prehab hotspot library (calves, tibialis, ankle, neck, rotator cuff, Nordics) | Referenced in 17 files, exercises scattered; calves and feet nearly absent | open |
@@ -61,8 +61,8 @@ listed so they are not re-derived.
       5-lb steps; decide whether that is fine or the rule wants a floor (e.g. skip the set
       when it rounds to ≤ working weight).
 - [ ] Add a `training-science` row to `~/.claude/references/projects.md`.
-- [ ] Next module from the brainstorm table, if wanted: isometrics (#3), then bands (#5)
-      or the prehab hotspot library (#6).
+- [ ] Next module from the brainstorm table, if wanted: bands (#5) or the prehab hotspot
+      library (#6).
 
 ## Session notes
 
@@ -128,3 +128,12 @@ listed so they are not re-derived.
   test on its own day, trend then a band once, flag rule that only asks. HIIT, KB, power
   and balance §7/§5 now defer their clock to it while it is active. `CHANGELOG.md` v1.3;
   tag `v1.3`.
+- `isometrics.md` (optional, two halves): the BP protocol (wall squat by knee angle or
+  handgrip at 30%, 4 × 2 min, 3×/week, breathed through, standalone, readings as a 4-week
+  trend with one 180/120 stop line, offered only when BP comes up) and tendon holds (only
+  for a tendon the user names; site table; 5 × 45 s bouts; 3 × 45 s primer at a fixed
+  255 s before the affected lift's ramp during TEST/RAMP; ≤ 3/10 during, next-morning
+  rule; never changes a protocol state). Deliberately honest about the tendon evidence:
+  relief for ~45 min, not a cure; the return-to-training ramp stays the fix. Golden session
+  unchanged in numbers (Sam names no tendon, no BP); assertions 1, 6, 7 name it.
+  `CHANGELOG.md` v1.4; tag `v1.4`.

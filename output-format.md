@@ -23,6 +23,9 @@ Block: [Hypertrophy/Strength/Deload] | Week [N] of [Total]
 - Power week (last 7 days): lower [n]/2 · upper [n]/2
 - [Rung movement] (L[rung] or U[rung]): 3 x [reps], rest 60 s — every rep max intent
 
+### Isometric primer — [tendon site] (4 min) (only while a tendon site is active and the affected lift's protocol is TEST or RAMP)
+- [Hold position] [+ load]: 3 x 45 s, rest 60 s — hard, 7/10, breathe; pain ≤ 3/10 or lighten
+
 ### Warmup Ramp (if compounds prescribed)
 - [Exercise]: [weight] x [reps] (warmup)
 
@@ -51,7 +54,8 @@ sets count both sides. Where a rep target is a window, estimate at the window to
 Add the general warm-up at a fixed 180 s (`warmup-and-mobility.md` §1, added 2026-10-25),
 plus a fixed 60 s on leg-loading days while the Balance Module is active (`balance.md` §4,
 added 2026-10-26; part of GENERAL, never cut), the power primer at a fixed 180 s when it prints (`power-and-plyometrics.md` §2, added
-2026-10-26; cut after Bone Doubles and before any accessory),
+2026-10-26; cut after Bone Doubles and before any accessory), the isometric primer at a
+fixed 255 s when it prints (`isometrics.md` §3, added 2026-10-26; never cut),
 the prehab block at 60s per item per round plus 30s transitions, and the warmup ramp
 at its own rest values. Then add a **15% overhead margin** before comparing against the
 user's stated limit. If the total exceeds the limit, cut from the end of the accessory
@@ -158,6 +162,13 @@ movement, no load field on bodyweight jumps, the ball weight as the load field o
 active, on leg-loading days: the last line of `GENERAL`, `Balance: [position] (S[rung]) —
 [hold]/side`. A standalone balance session is a single `BALANCE` block (one line per set,
 hold or count in the last field) under the quick-session header style.
+
+**ISOMETRIC block (added 2026-10-26, `system/isometrics.md` §6).** Only while the module is
+active. A standalone blood-pressure or tendon session is one `ISOMETRIC` block under the
+quick-session header style: rest once, one line per hold, the duration in the last field
+(`Wall squat 115° — Hold 1 — 2:00`; handgrip lines carry the hand). In a lifting session
+the tendon primer is an `ISOMETRIC` block between `PREHAB` (or `POWER`) and `WARMUP`, three
+lines, the load in the load field (`Wall sit 80° — Hold 1 — 10 lb — 45 s`).
 
 **BENCHMARK block (added 2026-10-26, `system/benchmarks.md` §6).** A scorecard test
 session is one `BENCHMARK` block under the quick-session header style, one line per result

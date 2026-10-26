@@ -54,6 +54,7 @@ The sender is `system/scripts/remind.py`. Neither holds anything secret; the pus
 | `aerobic` | "Aerobic this week: [done]/[target] min, [n] days left" | on stated rest days, morning | `aerobic-base.md` §4 | state-driven (rolling 7-day tally) |
 | `balance` | An anchored stance bout: "Kettle / teeth: [position] (S[rung]), [hold] each side" | daily, at the user's named anchor | `balance.md` §6 | state-driven (rung table) |
 | `power` | Today's jump and throw rungs with doses; "48 h since the last lower bout?" | 1–2×/week, non-leg days, morning | `power-and-plyometrics.md` §6 | state-driven (rung table) |
+| `isometric` | BP session: "Wall squat 4 × 2 min at [angle], rest 2 min, breathe" (or the handgrip line); or a tendon-hold anchor while a protocol is open, `until` it closes | 3×/week, a day between; tendon: daily | `isometrics.md` §4 | state-driven (step, site) |
 | `gtg` | Grease-the-groove set (pull-up / push-up, ≤ 50% max) | 2–4 fixed times/day on non-pull days | `bodyweight-ladders.md` gap bridge 1 | state-driven (current step) |
 | `state:train` | "Next up: [day type]. HIIT due? Deload?" on the user's stated training days | per training day, morning | `operating-protocol.md` §2 | state-driven |
 | `state:hiit-due` | HIIT has been next for N days; next format | daily once HIIT is ≥ 7 days overdue, `until` it is done | `conditioning-hiit.md` §2 | state-driven |

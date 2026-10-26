@@ -63,6 +63,17 @@ results into the Benchmarks table in `training-state.md` with the change since t
 card and since baseline, print a band once where `system/benchmarks.md` §5 allows one, and
 apply its flag rule. A result never changes a load, rung or target.
 
+**ISOMETRIC lines** (optional module, added 2026-10-26): unchanged = the full hold with
+breathing intact; a number of seconds = the hold achieved, not full; "breath" or "held my
+breath" = a breath-held hold (the `system/isometrics.md` §2 regression rule); "dizzy",
+"chest" or "headache" = its stop list; deleted or `x` = not performed, **not a miss**. A pain
+number appended to a tendon line is the during-pain; "AM worse" / "AM same" in a later
+message is the next-morning reading and attaches to the last tendon bout. A blood-pressure
+reading in the user's words ("128/82 this morning") logs to the readings line with its date
+and is never answered except by the §2 threshold line. Log every bout to the Isometrics
+Module's bout log in `training-state.md` and recompute the tally. Nothing here touches a
+Pain Response Protocol's state.
+
 **Quick-session lines** (`system/quick-sessions.md` §6): unchanged = done; a number on a
 circuit or EMOM line = rounds or minutes completed; `x` = skipped, which is **not a miss**.
 Log to the Quick Sessions log in `training-state.md`, advance that session's own small

@@ -48,7 +48,9 @@ flag noted, and the §3 decision tree runs on what was actually done, as always.
 
 Any flag also drops the day's power work, primer included, while the Power Module is active
 (`power-and-plyometrics.md` §5; added 2026-10-26). `SLEEP` or `FATIGUE` caps balance work
-at eyes-open, firm-floor rungs for the day (`balance.md` §2); the warm-up line stays. Two flags at once: apply the larger
+at eyes-open, firm-floor rungs for the day (`balance.md` §2); the warm-up line stays. `ILL`
+drops the day's isometric sessions and primer (`isometrics.md` §5); other flags leave them
+unchanged. Two flags at once: apply the larger
 adjustment, not both. A flag plus a pain report: the
 Pain Response Protocol governs that exercise, the flag governs the rest.
 

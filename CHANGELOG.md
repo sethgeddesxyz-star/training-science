@@ -5,6 +5,25 @@ pin by name (`git -C system checkout v1.1`), and each entry says what changed fo
 trainer's behaviour. Dates are the day the rule landed. Inside the rule files, every added
 or clarified rule also carries its own `(added YYYY-MM-DD)` note.
 
+## v1.4 — 2026-10-26
+
+- **`isometrics.md`** (new, optional). Held contractions as a tool, in two halves that
+  activate separately. The **blood-pressure protocol**: wall squat (knee angle from 135°
+  down to 95° in 10° steps) or handgrip (30% of maximal grip, hands alternating), 4 × 2 min,
+  three times a week, breathed through, standalone and outside every time budget, with
+  optional user-logged readings reported as a 4-week trend and a single 180/120 stop line.
+  Offered only when blood pressure comes up. The **tendon holds**: only for a pain the user
+  names as tendon pain, a site table (patellar, Achilles, plantar, elbow, hamstring, hip,
+  cuff, adductor), 5 × 45 s standalone bouts and a 3 × 45 s primer (fixed 255 s, never
+  cut) before the affected lift's ramp while its protocol is `TEST` or `RAMP`, a ≤ 3/10
+  during-pain rule and a next-morning rule. Holds never open, advance or close a protocol.
+  Weekly tally, nudge line, `isometric` reminder kind.
+- Pointers in `operating-protocol.md` (row, §2 gate, Snapshot), `output-format.md` (primer
+  section, estimate, ISOMETRIC block), `reporting-protocol.md`, `reminders.md` §2,
+  `readiness.md` §2 (`ILL` drops it), `return-to-training.md` §1, `benchmarks.md` (grip row),
+  `conditioning-hiit.md` §8 (the safety screen covers the first BP session), the state
+  templates, the sample user and the golden session (not read; assertions 1, 6 and 7).
+
 ## v1.3 — 2026-10-26
 
 - **`benchmarks.md`** (new, opt-in at intake). One scorecard every 8 weeks, taken in the

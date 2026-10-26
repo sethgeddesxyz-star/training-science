@@ -33,6 +33,10 @@ balance.md                  OPTIONAL balance module: static and dynamic ladders,
 benchmarks.md               the scorecard: equipment-free core tests plus every module's
                             benchmark, one due date every 8 weeks, one results table,
                             trend and a norm band once
+isometrics.md               OPTIONAL isometrics module: the blood-pressure protocol (wall
+                            squat or handgrip, 4 x 2 min, 3x/week) and tendon holds the
+                            user asks for by naming a tendon (standalone bouts, pre-lift
+                            primer during a pain protocol)
 mcgill-pullups.md           McGill pull-up clusters: Strength-block pull-up method
 bone-loading.md             OPTIONAL bone-density module: research summary, impact
                             and upper-limb ladders, Bone Doubles, weekly tally
