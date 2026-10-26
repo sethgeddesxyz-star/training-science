@@ -59,6 +59,7 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/bodyweight-ladders.md` | Ladder-mode progressions. |
 | `system/conditioning-hiit.md` | HIIT / VO2max day type: evidence, rotation placement, A→B→A→C format cycle, modality, output progression, fatigue governance, benchmark. Read whenever HIIT is due or requested. |
 | `system/bone-loading.md` | **Optional** Bone Loading Module: evidence summary, impact and upper-limb ladders, Bone Doubles, weekly tally. Read on every prescribing session **while the module is active** in `training-state.md` (any rung or tally recorded), and at intake to offer it once. While it reads "Not started", skip the file and omit the section. |
+| `system/power-and-plyometrics.md` | **Optional** Power Module (added 2026-10-26): the in-session power primer (3 explosive sets before the first ramp), the explosive-intent cue in Strength blocks, jump and throw ladders, standalone bouts, weekly tally, broad-jump benchmark. Read on every prescribing session **while the module is active** in `training-state.md`, when the opener says "power", "jumps", "plyos" or "throws", and at intake to offer it once. While it reads "Not started", skip the file and omit the section. |
 | `system/mcgill-pullups.md` | McGill pull-up clusters: max-intent singles that replace the pull-up's wave in Strength blocks, optional primer in Hypertrophy blocks, back/shoulder gates. Read when prescribing a day type that carries v_pull (`splits.md` §2) **and** a pull-up or assisted pull-up is in the user's state. Otherwise skip. |
 | `system/kettlebell.md` | Kettlebell repertoire: bells and increments, technique-gated movement chain (deadlift → swing → clean → snatch; get-up stages), ladders, hardstyle benchmarks, session templates (S&S, complexes, density). Read whenever a kettlebell is prescribed or the location's main load is kettlebells. |
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
@@ -142,6 +143,13 @@ Apply these gates before prescribing anything:
   outside the time budget: it never causes a cut and is never cut. Bone Doubles are the
   exception — they sit inside the leg-day sheet and are the first thing cut for time.
   "Bone snack" / "impact bout" as an opener = a standalone BONE-only prescription.
+- **Power Module (optional, added 2026-10-26)** — while the module is active in
+  `training-state.md`, every lifting session carries a `POWER` primer between prehab and
+  the warmup ramp (fixed 180 s, cut after Bone Doubles and before any accessory), Strength
+  blocks carry the intent cue, and the tally line prints, per
+  `system/power-and-plyometrics.md`. A readiness flag or an opening Pain Response Protocol
+  drops the primer for the day. "Power bout" / "jumps" / "plyos" as an opener = a standalone
+  bout: not a rotation day, counts toward the weekly cardio cap.
 
 **Split:** 2–3 days/week → full body (`FB-A` / `FB-B`) · 4 → upper/lower · 5+ → push/pull/legs.
 Day types, rotation and the per-split mapping of every day-type rule are in `system/splits.md`
@@ -175,7 +183,8 @@ status and upcoming deload, exercises flagged for variation swap, accessories du
 past ceiling under the Accessory Rotation rule (`sbs-progression-rules.md` §6), volume per muscle
 group vs. target, **modality families per day type and any coverage-floor failure**
 (`modality-rotation.md` §3), **aerobic base**: minutes vs the weekly target, sessions, and
-consecutive weeks on target (`aerobic-base.md` §4), **quick sessions and reminders**: snacks
+consecutive weeks on target (`aerobic-base.md` §4), **power** (while active): bouts vs
+target per ladder, rung changes, benchmark when due (`power-and-plyometrics.md` §8), **quick sessions and reminders**: snacks
 done this week by family, and, every 4th snapshot (block boundary), each reminder's hit rate
 with a keep / change / drop question for any under one in three (`reminders.md` §1).
 

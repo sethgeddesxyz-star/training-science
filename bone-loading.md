@@ -243,6 +243,13 @@ computed.
 
 ---
 
+**Power Module interaction (added 2026-10-26).** When `power-and-plyometrics.md` is also
+active, one jump bout a day feeds both tallies under its §9 mapping (power rung 1 = bone
+Rung 2; power rungs 2–6 = bone Rung 5), and the two files share one knee gate. Heel drops
+(Rung 1) and multidirectional single-leg hops (Rung 4) stay bone-only.
+
+---
+
 ## 6. Lifestyle levers (mention when relevant; never prescribe as program)
 
 Evidence grade in brackets. This is general information, not medical advice.

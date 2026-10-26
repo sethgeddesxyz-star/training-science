@@ -59,6 +59,12 @@ Rules: `system/bone-loading.md`. Not started.
 
 ---
 
+## Power Module (OPTIONAL)
+
+Rules: `system/power-and-plyometrics.md`. Not started.
+
+---
+
 ## Kettlebell
 
 Rules: `system/kettlebell.md` §8. Bells available: (from equipment-profiles.md). No lifts

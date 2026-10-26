@@ -34,6 +34,7 @@ Per `operating-protocol.md` §1 and the read map in `sbs-progression-rules.md`:
 | splits | no | rotation already in state; no day-type conflict in the opener |
 | warmup-and-mobility §1–§2 | yes | every lifting session; §3–§4 not read (no stretching or range question) |
 | bone-loading | no | state says "Not started" |
+| power-and-plyometrics | no | state says "Not started"; no "power" / "jumps" word in the opener (added 2026-10-26) |
 | conditioning-hiit | no | not requested; the "HIIT due" line comes from state |
 | aerobic-base | no | not requested; its weekly line belongs to the Snapshot, which is not due |
 | quick-sessions, kettlebell, suspension-trainer, modality-rotation, reminders, exercise-library | no | off-trigger (60 min; no KB or straps; not a deload; no reminders; no new exercise to choose) |
@@ -53,6 +54,7 @@ Per `operating-protocol.md` §1 and the read map in `sbs-progression-rules.md`:
 | Loads | DB pairs by 5 lb; nothing at the 50 lb ceiling |
 | Time limit | computed in §4; one cut |
 | Bone module | not started: section omitted, file not read |
+| Power module | not started: no primer, no POWER section, no 180 s in the estimate, file not read (added 2026-10-26) |
 | Day type due | FB-A (`training-state.md` Split & Rotation) |
 | HIIT | due since 2026-10-20, none performed: one-line note; full-body split, so a standalone on a non-lifting day (`splits.md` §3) |
 | Weekly Snapshot | last 2026-10-20, 5 days: not due |
@@ -307,13 +309,13 @@ number above names its rule. Nothing proposed.
 A re-trace after a rule change must still produce all of these, or the change explains why
 not and updates this file:
 
-1. The files in §2 marked "no" are not read; bone-loading and McGill in particular.
+1. The files in §2 marked "no" are not read; bone-loading, power-and-plyometrics and McGill in particular.
 2. Bench maintenance set = 45 lb × 4 (82.5% × 56 = 46.2 → nearest pair).
 3. Row maintenance set = 35 lb × 4 even though it equals the working weight.
 4. Bench ramp = 15 × 5, 25 × 5, 30 × 3; row ramp = 15 × 5, 20 × 5, 30 × 3; 45 s rest.
 5. Row working target after an advance = 6 (window low), not 8 or 10.
 6. Full sheet = 66.4 min (general warm-up 180 s included); Hammer Curl is the one cut; result 59.7 min; general warm-up, prehab, ramp and the first two working exercises untouched.
-7. Checklist: GENERAL, then PREHAB as ROUND 1 / ROUND 2, then WARMUP; one line per set, rest once per exercise as `R2m30s`, blank line between exercises, no BONE section.
+7. Checklist: GENERAL, then PREHAB as ROUND 1 / ROUND 2, then WARMUP; one line per set, rest once per exercise as `R2m30s`, blank line between exercises, no POWER and no BONE section.
 8. The free-text line attaches to the maintenance set above it and opens a Pain Response Protocol on DB Bench Press; it does not touch any other exercise's progression.
 9. Bench next = `TEST`: 35 lb × 3 × 6, RIR ≥ 3, 3-s eccentric, no maintenance set; stored e1RM 56 unchanged; the OHP holds its load on the next FB-B.
 10. Row: 6 reps is not a Step 1 failure; stallCounter becomes 1; e1RM becomes 46.7; next maintenance set 40 × 4.

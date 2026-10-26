@@ -68,6 +68,12 @@ Rules: `system/bone-loading.md`. Not started (offered at intake, declined for no
 
 ---
 
+## Power Module (OPTIONAL)
+
+Rules: `system/power-and-plyometrics.md`. Not started (offered at intake, declined for now).
+
+---
+
 ## Kettlebell
 
 None owned. Not started.

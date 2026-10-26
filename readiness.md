@@ -46,7 +46,9 @@ flag noted, and the §3 decision tree runs on what was actually done, as always.
 | `ILL`, above the neck only (runny nose, sore throat, no fever) | User's choice, said in one line: skip, or run the day at **deload parameters** (`sbs-progression-rules.md` §6 Deload Week: 50% sets, 65% load, RIR ≥ 4, no AMRAP). A deload-parameter session advances the rotation and is logged; it opens no e1RM thread and advances nothing else | Skip. HIIT stays due |
 | `ILL`, below the neck or fever (chest, gut, aches, temperature) | **No session.** Say so in one line and stop. Not a miss; `lastSessionDate` does not move, so missed-time decay (§9) runs on the normal calendar if the illness is long | Skip |
 
-Two flags at once: apply the larger adjustment, not both. A flag plus a pain report: the
+Any flag also drops the day's power work, primer included, while the Power Module is active
+(`power-and-plyometrics.md` §5; added 2026-10-26). Two flags at once: apply the larger
+adjustment, not both. A flag plus a pain report: the
 Pain Response Protocol governs that exercise, the flag governs the rest.
 
 **Output.** A flagged session adds one line to Session Notes, before the duration line:

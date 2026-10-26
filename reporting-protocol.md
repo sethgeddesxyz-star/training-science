@@ -42,6 +42,14 @@ to the Bone Loading Module's bout log in `training-state.md` and recompute the t
 Next-morning Achilles, shin or foot soreness reported later still counts against that bout
 (`system/bone-loading.md` §3).
 
+**POWER lines** (optional module, added 2026-10-26): unchanged = performed at the prescribed
+dose, clean; deleted or `x` = not performed, **not a miss**. A shortened set logs its count
+and the bout still counts as clean; a distance or height is logged as data; next-morning
+joint soreness reported later counts against that bout. Log every performed primer or bout
+to the Power Module's bout log in `training-state.md` and recompute the tally
+(`system/power-and-plyometrics.md` §8). When the bone module is also active, a jump bout
+logs to both (its §9 mapping).
+
 **Quick-session lines** (`system/quick-sessions.md` §6): unchanged = done; a number on a
 circuit or EMOM line = rounds or minutes completed; `x` = skipped, which is **not a miss**.
 Log to the Quick Sessions log in `training-state.md`, advance that session's own small

@@ -118,6 +118,7 @@ Every rule elsewhere that says "per day type" or names a PPL day reads through t
 | **McGill clusters** (`mcgill-pullups.md`) | first working exercise on PULL | first working exercise on `UPPER`, both sessions that week | first working exercise on `FB-A` |
 | **Bone Doubles** (`bone-loading.md` §2) | gym LEGS | gym `LOWER` | gym `FB-B` |
 | **Bone tally and impact ladder** (`bone-loading.md` §5) | unchanged: it sits outside the session | unchanged | unchanged |
+| **Power primer** (`power-and-plyometrics.md` §2, while active) | lower ladder on LEGS, upper ladder on PUSH, upper or none on PULL | lower on `LOWER`, upper on `UPPER` | lower on both `FB-A` (squat) and `FB-B` (hinge); upper by standalone bout |
 | **Time-limit cut order** (`operating-protocol.md` §2) | from the end of the accessory order | unchanged | unchanged; the two protected working exercises are the first two main patterns on the sheet |
 | **Reminder `state:train`** (`reminders.md` §2) | "Next up: [PPL day]" | "Next up: UPPER / LOWER" | "Next up: FB-A / FB-B" |
 | **Weekly Snapshot** (`operating-protocol.md` §5) | families per PPL day | per `UPPER` / `LOWER` | per `FB-A` / `FB-B` |
