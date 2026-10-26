@@ -36,6 +36,7 @@ Per `operating-protocol.md` §1 and the read map in `sbs-progression-rules.md`:
 | bone-loading | no | state says "Not started" |
 | power-and-plyometrics | no | state says "Not started"; no "power" / "jumps" word in the opener (added 2026-10-26) |
 | balance | no | state says "Not started"; no "balance" / "fell" word in the opener (added 2026-10-26) |
+| benchmarks | no | state says "Not started"; no "test" / "benchmark" word in the opener; not a deload week (added 2026-10-26) |
 | conditioning-hiit | no | not requested; the "HIIT due" line comes from state |
 | aerobic-base | no | not requested; its weekly line belongs to the Snapshot, which is not due |
 | quick-sessions, kettlebell, suspension-trainer, modality-rotation, reminders, exercise-library | no | off-trigger (60 min; no KB or straps; not a deload; no reminders; no new exercise to choose) |
@@ -57,6 +58,7 @@ Per `operating-protocol.md` §1 and the read map in `sbs-progression-rules.md`:
 | Bone module | not started: section omitted, file not read |
 | Power module | not started: no primer, no POWER section, no 180 s in the estimate, file not read (added 2026-10-26) |
 | Balance module | not started: no balance line in GENERAL, no +60 s in the estimate, file not read (added 2026-10-26) |
+| Scorecard | not started: no card due, file not read; the HIIT benchmark keeps its own clock (added 2026-10-26) |
 | Day type due | FB-A (`training-state.md` Split & Rotation) |
 | HIIT | due since 2026-10-20, none performed: one-line note; full-body split, so a standalone on a non-lifting day (`splits.md` §3) |
 | Weekly Snapshot | last 2026-10-20, 5 days: not due |
@@ -311,7 +313,7 @@ number above names its rule. Nothing proposed.
 A re-trace after a rule change must still produce all of these, or the change explains why
 not and updates this file:
 
-1. The files in §2 marked "no" are not read; bone-loading, power-and-plyometrics, balance and McGill in particular.
+1. The files in §2 marked "no" are not read; bone-loading, power-and-plyometrics, balance, benchmarks and McGill in particular.
 2. Bench maintenance set = 45 lb × 4 (82.5% × 56 = 46.2 → nearest pair).
 3. Row maintenance set = 35 lb × 4 even though it equals the working weight.
 4. Bench ramp = 15 × 5, 25 × 5, 30 × 3; row ramp = 15 × 5, 20 × 5, 30 × 3; 45 s rest.

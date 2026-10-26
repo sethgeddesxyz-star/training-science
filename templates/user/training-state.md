@@ -71,6 +71,13 @@ Rules: `system/balance.md`. Not started.
 
 ---
 
+## Benchmarks
+
+Rules: `system/benchmarks.md`. Not started. (Once started: aerobic option, grip option,
+next due date, and the results table with one column per card.)
+
+---
+
 ## Kettlebell
 
 Rules: `system/kettlebell.md` §8. Bells available: (from equipment-profiles.md). No lifts

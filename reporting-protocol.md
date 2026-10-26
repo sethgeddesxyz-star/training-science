@@ -57,6 +57,12 @@ hold or count; a number of seconds = the hold achieved, not clean; "touched", "g
 warm-up line, to the Balance Module's bout log in `training-state.md` and recompute the
 minutes (`system/balance.md` §8).
 
+**BENCHMARK lines** (added 2026-10-26): a number in the last field = the result; empty or
+`x` = not taken, not a miss; "touched" on a stance line = the seconds reached. Write the
+results into the Benchmarks table in `training-state.md` with the change since the last
+card and since baseline, print a band once where `system/benchmarks.md` §5 allows one, and
+apply its flag rule. A result never changes a load, rung or target.
+
 **Quick-session lines** (`system/quick-sessions.md` §6): unchanged = done; a number on a
 circuit or EMOM line = rounds or minutes completed; `x` = skipped, which is **not a miss**.
 Log to the Quick Sessions log in `training-state.md`, advance that session's own small

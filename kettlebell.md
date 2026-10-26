@@ -257,7 +257,9 @@ Progress distance before load (20 → 30 → 40 m), then bell, then back to 20 m
 
 Coaching standards, not trial outcomes. Tested **every 8 weeks** like the `conditioning-hiit.md`
 §7 benchmark, never as daily programming; a benchmark session replaces one accessory-rotation
-KB session that week and is logged in the §8 benchmark table.
+KB session that week and is logged in the §8 benchmark table. While the scorecard in
+`benchmarks.md` is active (added 2026-10-26), its due date is the clock and its table holds
+the results; the protocol below is unchanged.
 
 | Benchmark | Standard | Source |
 |---|---|---|

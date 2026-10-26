@@ -208,7 +208,9 @@ Taken fresh, before any lifting, shoes off, next to a counter:
 
 Record date and results in state. A benchmark that falls more than 25% from the last with
 no layoff, flag or protocol in between is a Snapshot line and a question, not a rung
-change. The `state:benchmark` reminder kind covers this benchmark.
+change. The `state:benchmark` reminder kind covers this benchmark. While the scorecard in
+`benchmarks.md` is active, its due date and table own these three tests; the protocol here
+is unchanged.
 
 ---
 

@@ -59,7 +59,7 @@ The sender is `system/scripts/remind.py`. Neither holds anything secret; the pus
 | `state:hiit-due` | HIIT has been next for N days; next format | daily once HIIT is ≥ 7 days overdue, `until` it is done | `conditioning-hiit.md` §2 | state-driven |
 | `state:deload` | Deload open; day types still to cover; calendar floor date | daily during the window | `sbs-progression-rules.md` §6 | state-driven, `until` = floor date |
 | `state:rotation` | Accessories due to rotate at this boundary, with proposals | once, first deload day | `sbs-progression-rules.md` §6, `modality-rotation.md` | state-driven |
-| `state:benchmark` | HIIT or kettlebell benchmark due | every 8 weeks | `conditioning-hiit.md` §7, `kettlebell.md` §5 | state-driven |
+| `state:benchmark` | Scorecard due (`benchmarks.md`), or, with the scorecard not started, the HIIT, kettlebell, power or balance benchmark due | every 8 weeks | `benchmarks.md` §2; `conditioning-hiit.md` §7, `kettlebell.md` §5, `power-and-plyometrics.md` §7, `balance.md` §7 | state-driven |
 | `snapshot` | "Ask for your weekly snapshot" | weekly, Sunday evening | `operating-protocol.md` §5 | fixed |
 
 Anything outside training (water, sleep, supplements) is out of scope for this file.

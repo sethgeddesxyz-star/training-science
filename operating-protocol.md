@@ -61,6 +61,7 @@ Two repos, never in Project Knowledge. Never ask the user to paste file contents
 | `system/bone-loading.md` | **Optional** Bone Loading Module: evidence summary, impact and upper-limb ladders, Bone Doubles, weekly tally. Read on every prescribing session **while the module is active** in `training-state.md` (any rung or tally recorded), and at intake to offer it once. While it reads "Not started", skip the file and omit the section. |
 | `system/power-and-plyometrics.md` | **Optional** Power Module (added 2026-10-26): the in-session power primer (3 explosive sets before the first ramp), the explosive-intent cue in Strength blocks, jump and throw ladders, standalone bouts, weekly tally, broad-jump benchmark. Read on every prescribing session **while the module is active** in `training-state.md`, when the opener says "power", "jumps", "plyos" or "throws", and at intake to offer it once. While it reads "Not started", skip the file and omit the section. |
 | `system/balance.md` | **Optional** Balance Module (added 2026-10-26): static and dynamic ladders, a one-line addition to the leg-day general warm-up, standalone 7-min sessions, weekly minutes target, one-leg-stance benchmark. Read on every prescribing session **while the module is active** in `training-state.md`, when the opener says "balance", "stability", "wobbly", "tripped", "fell" or "near fall", and at intake to offer it once. Re-offered once when the bone module activates, the user turns 60, a fall is reported, or a lower-limb Pain Response Protocol closes. While it reads "Not started", skip the file and omit the line. |
+| `system/benchmarks.md` | The scorecard (added 2026-10-26): an equipment-free core set (one-leg stance, 30-s chair stand, push-up max, grip or dead hang, sit and rise, one aerobic test, broad jump when cleared, main-lift e1RMs read from state) plus the HIIT, kettlebell, power and balance benchmarks folded in while active; one due date every 8 weeks taken in the deload week, one results table, trend and a norm band once. Read when a scorecard is due, when the opener says "test", "benchmark", "scorecard" or "how am I doing", and at intake to set the baseline. While it reads "Not started", skip the file; each module's own benchmark then runs on its own clock. |
 | `system/mcgill-pullups.md` | McGill pull-up clusters: max-intent singles that replace the pull-up's wave in Strength blocks, optional primer in Hypertrophy blocks, back/shoulder gates. Read when prescribing a day type that carries v_pull (`splits.md` §2) **and** a pull-up or assisted pull-up is in the user's state. Otherwise skip. |
 | `system/kettlebell.md` | Kettlebell repertoire: bells and increments, technique-gated movement chain (deadlift → swing → clean → snatch; get-up stages), ladders, hardstyle benchmarks, session templates (S&S, complexes, density). Read whenever a kettlebell is prescribed or the location's main load is kettlebells. |
 | `system/suspension-trainer.md` | TRX / rings repertoire: the angle rule (floor marks as ladder steps), catalogue by pattern, ladders, travel sessions. Read whenever straps are prescribed or the location is straps-only. |
@@ -157,6 +158,12 @@ Apply these gates before prescribing anything:
   prints, per `system/balance.md` §4. Nothing is added to the sheet. "Balance" /
   "stability" as an opener = a standalone 7-min session: not a rotation day, never a miss,
   not on the cardio cap. Eyes-closed and cushion rungs never run on a readiness flag.
+- **Scorecard (added 2026-10-26)** — while `benchmarks.md` is active and a card is due
+  (every 8 weeks, in the first deload week at or after the due date), prescribe the test
+  session (`benchmarks.md` §4) on a deload or rest day and the aerobic test in that week's
+  HIIT or aerobic slot. Never in Strength Week 4, on a readiness flag, within 48 h after
+  HIIT, or on a joint under an open protocol (that test is deferred). "Test" /
+  "benchmark" / "scorecard" as an opener = the test session, due or not.
 
 **Split:** 2–3 days/week → full body (`FB-A` / `FB-B`) · 4 → upper/lower · 5+ → push/pull/legs.
 Day types, rotation and the per-split mapping of every day-type rule are in `system/splits.md`
@@ -193,7 +200,8 @@ group vs. target, **modality families per day type and any coverage-floor failur
 consecutive weeks on target (`aerobic-base.md` §4), **power** (while active): bouts vs
 target per ladder, rung changes, benchmark when due (`power-and-plyometrics.md` §8),
 **balance** (while active): minutes vs target, bouts, rung changes, the unilateral-lift
-check, benchmark when due (`balance.md` §8), **quick sessions and reminders**: snacks
+check, benchmark when due (`balance.md` §8), **scorecard** (while active): "due [date]"
+from the due date until taken, then the card's headline once (`benchmarks.md` §6), **quick sessions and reminders**: snacks
 done this week by family, and, every 4th snapshot (block boundary), each reminder's hit rate
 with a keep / change / drop question for any under one in three (`reminders.md` §1).
 

@@ -231,7 +231,8 @@ lifting:
 Record date, result and rung in state. A benchmark that falls more than 10% from the last
 one with no layoff or flag in between is a Weekly Snapshot line and a question, not a
 rung change. The `state:benchmark` reminder kind covers this benchmark as it does HIIT and
-kettlebell.
+kettlebell. While the scorecard in `benchmarks.md` is active, its due date and table own
+these two tests; the protocol here is unchanged.
 
 ---
 

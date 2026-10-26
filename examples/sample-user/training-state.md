@@ -80,6 +80,13 @@ Rules: `system/balance.md`. Not started (offered at intake, declined for now).
 
 ---
 
+## Benchmarks
+
+Rules: `system/benchmarks.md`. Not started (offered at intake, declined for now; the HIIT
+benchmark runs on its own clock).
+
+---
+
 ## Kettlebell
 
 None owned. Not started.

@@ -159,6 +159,11 @@ active, on leg-loading days: the last line of `GENERAL`, `Balance: [position] (S
 [hold]/side`. A standalone balance session is a single `BALANCE` block (one line per set,
 hold or count in the last field) under the quick-session header style.
 
+**BENCHMARK block (added 2026-10-26, `system/benchmarks.md` §6).** A scorecard test
+session is one `BENCHMARK` block under the quick-session header style, one line per result
+field with the last field left for the user (`One-leg stance — R — [s]`,
+`Push-up (step 6) — max — [reps]`), blank line between tests.
+
 **BONE section (added 2026-09-25, `system/bone-loading.md`).** Always the last section of
 the checklist, same line format as working sets (no load field on bodyweight impact lines).
 Bone Doubles are NOT here — they are working-set lines on their lift, labelled

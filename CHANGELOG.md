@@ -5,6 +5,21 @@ pin by name (`git -C system checkout v1.1`), and each entry says what changed fo
 trainer's behaviour. Dates are the day the rule landed. Inside the rule files, every added
 or clarified rule also carries its own `(added YYYY-MM-DD)` note.
 
+## v1.3 — 2026-10-26
+
+- **`benchmarks.md`** (new, opt-in at intake). One scorecard every 8 weeks, taken in the
+  first deload week at or after the due date: a core set needing only a wall, a chair, a
+  tape and a timer (one-leg stance, 30-s chair stand, push-up max at the ladder step, grip
+  or dead hang, sit and rise, one aerobic test chosen at intake, broad jump when cleared,
+  main-lift e1RMs read from state), with the HIIT, kettlebell, power and balance benchmarks
+  folded in while their module is active so no module runs its own clock. Fixed test order,
+  a separate aerobic day, trend first, a cited norm band printed once, a flag rule that only
+  asks. While "Not started", each module's benchmark runs under its own file as before.
+- Pointers in `conditioning-hiit.md` §7, `kettlebell.md` §5, `power-and-plyometrics.md` §7,
+  `balance.md` §7, `operating-protocol.md` (row, §2 gate, Snapshot), `output-format.md`
+  (BENCHMARK block), `reporting-protocol.md`, `reminders.md` (`state:benchmark` row), the
+  state templates, the sample user and the golden session (not read; assertion 1).
+
 ## v1.2 — 2026-10-26
 
 Two optional modules from the 2026-10-26 brainstorm, one commit each, both "Not started"

@@ -184,6 +184,10 @@ HIIT stays due.
 
 ## 7. Benchmark (every 8 weeks)
 
+**While the scorecard in `benchmarks.md` is active (added 2026-10-26), its due date and
+results table replace this section's clock: the bike test below is that card's aerobic
+option (c), or the card's chosen aerobic test stands in for it.** Otherwise:
+
 Track VO2max by output, not by a lab test. Run a benchmark as an A-slot session every 8
 weeks (and once before the first A session if the user wants a baseline):
 - **Bike 20-min steady test at a fixed wattage** (the same number every time) → record the

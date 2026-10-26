@@ -35,7 +35,7 @@ listed so they are not re-derived.
 | 1 | Power and plyometrics (jumps, throws, intent cue) | Power is lost faster than strength and predicts function; jumping existed only inside the bone module | done (`power-and-plyometrics.md`) |
 | 2 | Balance and fall prevention (static, stepping, reactive) | Strongest fall-prevention evidence of any exercise type; zero coverage | done (`balance.md`) |
 | 3 | Isometrics as a tool (wall squat, handgrip for blood pressure; long holds for tendon pain) | Best BP effect of any mode in the 2023 BJSM meta-analysis; mentioned only as warm-up filler | open |
-| 4 | Fitness benchmarks (grip, 30-s sit-to-stand, dead hang, push-up count, walk/run VO2 estimate) | A whole-person scorecard every 8–12 weeks; KB, HIIT, power and balance each have one, nothing joins them | open |
+| 4 | Fitness benchmarks (grip, 30-s sit-to-stand, dead hang, push-up count, walk/run VO2 estimate) | A whole-person scorecard every 8–12 weeks; KB, HIIT, power and balance each have one, nothing joins them | done (`benchmarks.md`) |
 | 5 | Band repertoire | Named as a modality family but, unlike KB and TRX, has no file | open |
 | 6 | Prehab hotspot library (calves, tibialis, ankle, neck, rotator cuff, Nordics) | Referenced in 17 files, exercises scattered; calves and feet nearly absent | open |
 | 7 | Rucking / loaded walking | Bridges aerobic minutes, bone loading and carries | open |
@@ -61,8 +61,8 @@ listed so they are not re-derived.
       5-lb steps; decide whether that is fine or the rule wants a floor (e.g. skip the set
       when it rounds to ≤ working weight).
 - [ ] Add a `training-science` row to `~/.claude/references/projects.md`.
-- [ ] Next module from the brainstorm table, if wanted: isometrics (#3) or fitness
-      benchmarks (#4); the benchmark one would also absorb the power and balance benchmarks.
+- [ ] Next module from the brainstorm table, if wanted: isometrics (#3), then bands (#5)
+      or the prehab hotspot library (#6).
 
 ## Session notes
 
@@ -121,3 +121,10 @@ listed so they are not re-derived.
 - Golden session re-traced: both modules "Not started" for Sam, so no number changes;
   the not-read table, the gate table and assertions 1, 6 and 7 now name them.
 - `CHANGELOG.md` v1.2; tag `v1.2` on main.
+- `benchmarks.md` (opt-in): the scorecard. Core set (one-leg stance, 30-s chair stand,
+  push-up max at ladder step, grip or dead hang, sit and rise, one aerobic test of four
+  options, broad jump when cleared, e1RMs read from state), module benchmarks folded in
+  while active, one due date every 8 weeks in the deload week, fixed test order, aerobic
+  test on its own day, trend then a band once, flag rule that only asks. HIIT, KB, power
+  and balance §7/§5 now defer their clock to it while it is active. `CHANGELOG.md` v1.3;
+  tag `v1.3`.
