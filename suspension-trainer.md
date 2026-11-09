@@ -62,6 +62,23 @@ and Mark 8 at ~horizontal, then 7 marks at equal spacing. Record `marks calibrat
 (§7). A new anchor or strap-length change for that family = recalibrate before the next
 prescription. Without tape the ladders below are guesswork.
 
+**Untaped fallback: relative steps (added 2026-11-09, approved).** Where marks cannot be taped
+(a commercial gym floor, a borrowed anchor) or the user cannot use the scale, drop the mark
+numbers for that exercise and count **steps** instead. The user's first working foot position
+is **Step 0**. Each step is **one half-step closer to the anchor line**, which is the same
+spacing as one mark. The ladder rules below run unchanged with "step" in place of "mark":
+advance one step at 3 × 8 clean, restart at 3 × 5, and regress one step per 14 full days of
+layoff, floor Step 0. The checklist load field reads `Step N`. The coaching view says where to
+stand in plain words ("Step 1: one half-step closer to the anchor than last time"). The user
+may write a shoe-length distance from the anchor line on the line, but nothing is ever gated
+on it. Record `marks calibrated: n (steps)` and each exercise's `step` (§7). Steps are
+relative to that user's Step 0, so they never convert to marks or to % BW.
+
+**Strap length not reachable.** If an anchor is too low for a listed setting (most often
+over-shortened, handles at chest height), use the **shortest length the straps reach** and
+record it on the exercise's state line. A strap length change still restarts that exercise
+at Step 0.
+
 ### Strap length settings
 
 | Setting | Used for |
@@ -365,7 +382,7 @@ Under `## Suspension Trainer` in `users/<name>/training-state.md`:
 ## Suspension Trainer
 - anchor: [door anchor / ceiling mount / beam strap / tree / rings]
 - strap type: [TRX-style single-anchor / rings]
-- marks calibrated: [y/n] — [YYYY-MM-DD] — families: [row @ mid-length, press @ full]
+- marks calibrated: [y/n/n (steps)] — [YYYY-MM-DD] — families: [row @ mid-length, press @ full]
 - travel mode: [y/n] — since [YYYY-MM-DD]
 - exercises:
   - TRX Row: mark [0-8] · variation [neutral/single-arm/feet-elevated/archer] · step [n] · [sets] × [reps] · last [YYYY-MM-DD] · stall [0-3] · gap bridge [none/<method>]

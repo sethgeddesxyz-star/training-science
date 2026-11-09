@@ -5,6 +5,15 @@ pin by name (`git -C system checkout v1.1`), and each entry says what changed fo
 trainer's behaviour. Dates are the day the rule landed. Inside the rule files, every added
 or clarified rule also carries its own `(added YYYY-MM-DD)` note.
 
+## Unreleased
+
+- **`suspension-trainer.md` §2: untaped fallback (2026-11-09).** When floor marks cannot be
+  taped or the user cannot use them, the first working foot position is Step 0 and each step
+  is one half-step toward the anchor line. Ladder rules run unchanged on steps, the checklist
+  reads `Step N`, and steps never convert to marks. Plus: when an anchor is too low for a
+  listed strap length, use the shortest length the straps reach and record it. §7 state line
+  gains `marks calibrated: n (steps)`.
+
 ## v1.4 — 2026-10-26
 
 - **`isometrics.md`** (new, optional). Held contractions as a tool, in two halves that
