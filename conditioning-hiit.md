@@ -69,9 +69,13 @@ This section is written for the push/pull/legs split. Upper/lower and full-body 
   - "HIIT", "intervals", "cardio day" → prescribe HIIT whatever is next. If this jumps the
     rotation, the rotation resumes from the day after the performed HIIT slot (as if it came
     up in order); the skipped lifting day type stays next.
-- **Stacking.** HIIT may be stacked **after a pull session** (lift first, HIIT after) on the same
-  visit. That counts as the HIIT slot, and the next day type becomes PUSH. Never stack it after
-  legs or before any lifting session.
+- **Stacking (widened 2026-11-10).** HIIT may be stacked **after a pull or a push session** (lift
+  first, HIIT after) on the same visit. The lift's muscles do not decide this: HIIT carries no
+  upper-body cost (§1); the rule protects the legs session. The visit counts as both slots.
+  After pull + HIIT the next day type is PUSH. After push + HIIT (HIIT pulled forward from its
+  slot) the next day type is LEGS, and that legs session must start at least 24 h after the
+  HIIT (Sabag 2018); the format cycle advances as normal. Never stack it after legs or before
+  any lifting session.
 - **Bonus second HIIT (to reach 2/week, optional).** Allowed on a non-lifting day when (a) the
   next day's session is not legs, and (b) it is at least 24 h after the last legs session. Run
   the next format in the cycle; it advances the cycle but not the rotation.
